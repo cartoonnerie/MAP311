@@ -12,6 +12,6 @@ class td7 {
 		}
   
   public static void main(String[] args) {
-	  
+	  loop1(2);
   }
 }
