@@ -9,8 +9,6 @@ import numpy as np
 #import m matplotlib.pyplot as plt
 #import mpmath as mp
 
-P = np.array([14/16, 1/16, 1/16])
-
 def simulP(P):#P = [[x1...xn], [p0...pn]]
     pCumul = np.cumsum(P[1])
     a = np.random.rand()
