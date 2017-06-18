@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.3)  16 JUN 2017 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.3)  19 JUN 2017 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,6 +864,42 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
+
+! LaTeX Error: \I undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \renewcommand\I
+                    {\mathcal{I}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \B undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \renewcommand\B
+                    {\mathcal{B}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \D undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \renewcommand\D
+                    {\mathcal{D}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks18
@@ -1033,7 +1069,7 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 
+l.24 
      
 Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for
  more information.
@@ -1050,7 +1086,7 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ^^M
+l.24 ^^M
         
 This could be caused by using -output-directory or -aux-directory 
 without setting minted's outputdir, or by using a build tool that 
@@ -1066,7 +1102,7 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \begin{document}
+l.28 \begin{document}
                      
 Refer to the installation instructions in the minted documentation for more inf
 ormation.
@@ -1074,56 +1110,56 @@ ormation.
 (./Rapport.aux)
 \openout1 = `Rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 25.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 25.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 28.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 28.
 
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 25.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 28.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 25.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 28.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 25.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 25.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Try loading font information for T1+artemisia on input line
- 25.
+ 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/t1artemisia.fd)
 LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 25.
-LaTeX Info: Redefining \degres on input line 25.
-LaTeX Info: Redefining \dots on input line 25.
-LaTeX Info: Redefining \up on input line 25.
+(Font)              scaled to size 9.29993pt on input line 28.
+LaTeX Info: Redefining \degres on input line 28.
+LaTeX Info: Redefining \dots on input line 28.
+LaTeX Info: Redefining \up on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1186,55 +1222,55 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \begin{document}
+l.28 \begin{document}
                      ^^M
 This could be caused by using -output-directory or -aux-directory 
 without setting minted's outputdir, or by using a build tool that 
 changes paths in ways minted cannot detect.
 
 LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 27.
+(Font)              scaled to size 11.15991pt on input line 30.
 LaTeX Font Info:    Font shape `T1/artemisia/bx/n' will be
-(Font)              scaled to size 11.15991pt on input line 27.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 28.
+(Font)              scaled to size 11.15991pt on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 28.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 28.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Try loading font information for OT1+artemisia on input lin
-e 28.
+e 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/ot1artemisia.fd)
 LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 28.
+(Font)              scaled to size 9.29993pt on input line 31.
 LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 28.
+(Font)              scaled to size 6.50995pt on input line 31.
 LaTeX Font Info:    Font shape `OT1/artemisia/m/n' will be
-(Font)              scaled to size 4.64996pt on input line 28.
+(Font)              scaled to size 4.64996pt on input line 31.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.32 ...ac{a}{b}} + (2-a-b)\log_2{\frac{1-a}{1-b}$
+l.35 ...ac{a}{b}} + (2-a-b)\log_2{\frac{1-a}{1-b}$
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1243,8 +1279,8 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.38 ... cas général, $\mathcal{D}(p||q) \nequal
-                                                   \mathcal{D}(q||p)$
+l.41 ..., dans le cas général, $\D(p||q) \nequal
+                                                   \D(q||p)$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1252,7 +1288,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/artemisia/bx/n' will be
-(Font)              scaled to size 9.29993pt on input line 41.
+(Font)              scaled to size 9.29993pt on input line 44.
 
 ! Package inputenc Error: Unicode char ² (U+B2)
 (inputenc)                not set up for use with LaTeX.
@@ -1261,15 +1297,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 $\mathcal{H}(X,Y) = - \sum_{x,y \in E²
-                                            }  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x...
-
+l.62 $\H(X,Y) = - \sum_{x,y \in E²
+                                   }  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))}\\ =
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Extra }, or forgotten $.
-l.60 ...y) \log_2{p_X(x)} + \log_2 p_{Y|X = x}(y)}
+l.63 ...y) \log_2{p_X(x)} + \log_2 p_{Y|X = x}(y)}
                                                   \\ =
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1278,7 +1313,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.61 ...n E} p_{Y|X = x}(y) \log_2 p_{Y|X = x}(y)}
+l.64 ...n E} p_{Y|X = x}(y) \log_2 p_{Y|X = x}(y)}
                                                   )\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1294,8 +1329,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 $\mathcal{I}(X,Y) = \sum_{(X,Y) \in E²
-                                            } p_{X,Y}(x,y) \log_2{\frac{p_{X...
+l.69 $\I(X,Y) = \sum_{(X,Y) \in E²
+                                   } p_{X,Y}(x,y) \log_2{\frac{p_{X,Y}{x,y}}...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1309,7 +1344,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65  = \sum_{(X,Y) \in E²
+l.70  = \sum_{(X,Y) \in E²
                            } p_X(x) p_{Y|X=x}(y) \log_2{(p_{Y|X=x}(y))}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1323,39 +1358,42 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66  - \sum_{(X,Y) \in E²
+l.71  - \sum_{(X,Y) \in E²
                            } p_Y(y) p_{X|Y=y}(x) \log_2{(p_{Y}(y))}\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Rapport.aux) ) 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 7826 strings out of 493029
- 118340 string characters out of 6136235
- 210078 words of memory out of 5000000
- 11183 multiletter control sequences out of 15000+600000
+ 7832 strings out of 493029
+ 118409 string characters out of 6136235
+ 211097 words of memory out of 5000000
+ 11189 multiletter control sequences out of 15000+600000
  26858 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,4n,35p,797b,1373s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/sha
-re/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaec.enc}{/usr/share/
-texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisia.enc}{/usr/share/texli
-ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/gfsartemisia/GFSArtemisia-Bold.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/gfsartemisia/GFSArtemisia-Regular.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts
-/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rapport.pdf (1 page, 88441 bytes).
+ 37i,5n,35p,797b,1373s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr
+/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaec.enc}{/usr/sh
+are/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisia.enc}{/usr/share/t
+exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fo
+nts/type1/public/gfsartemisia/GFSArtemisia-Bold.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/gfsartemisia/GFSArtemisia-Regular.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
+onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rapport.pdf (2 pages, 93210 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
