@@ -3,7 +3,6 @@
 \usepackage[francais]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{gfsartemisia}
 
 \usepackage{graphicx} 
 \renewcommand\H{\mathcal{H}}
@@ -14,7 +13,6 @@
 %\usepackage{amsmath}
 \usepackage{amsfonts}
 %\usepackage{amsthm}
-%\usepackage{stmaryrd}%intervalles d'entiers
 
 \usepackage{setspace} %\onehalfspacing       %% 1,5-spacing
 \usepackage{a4wide} %%Smaller margins = more text per page.
@@ -22,10 +20,10 @@
 \usepackage{minted}
 %\usemintedstyle{colorful}
 
-%\usepackage[top=1,5cm, bottom=1,5cm, left=1cm, right=1cm]{geometry}
-
 \begin{onehalfspacing}
 \begin{document}
+
+\section*{Entropie et codage de source}
 
 \subsubsection*{Q2}
 $\D(\B(a)||\B(b))
@@ -41,14 +39,14 @@ $\D(\B(a)||\B(b))  - \D(\B(b)||\B(a))
 Ainsi, dans le cas général, $\D(p||q) \nequal \D(q||p)$
 
 \subsubsection*{Q3a}
-La fonction $- \log_2$ est convexe. Alors, d'après l'inégalité de Jensen, 
+La fonction $- \log_2$ est strictement convexe. Alors, d'après l'inégalité de Jensen, 
 
 $\sum_{x \in E} p(x) (-\log_2{(\frac{q(x)}{p(x)})}) \geq 
 -\log_2{(\sum_{x \in E}p(x) \frac{q(x)}{p(x)})} = -log_2{(\sum_{x \in E}q(x))} = 0$
 
 Ainsi $D(p||q) \geq 0$
 
-Si 
+La stricte convexité de $-\log_2$ permet de conclure qu'il y a égalité si et seulement si $\forall x \in E$, $p(x) = q(x)$, soit $p=q$. 
 
 \subsubsection*{Q3b}
 
@@ -102,24 +100,30 @@ $\mathbb{P}(X = x_1) = \frac{1}{3} = \mathbb{P}(a > \frac{2}{3})$.
 $\D(p_X||q) = \sum_{x \in E}p_X(x)log_2(\frac{p_X(x)}{\frac{1}{c}d^{-l(x)}}) \geq 0$
 
 Alors $\sum_{x \in E}p_X(x)log_2(p_X(x)) \geq  -\sum_{x \in E}p_X(x)l(x)log_2(d) + \sum_{x \in E}p_X(x)log_2(\frac{1}{c}) \\
- \iff -\H(X) \geq -log_2(d) \mathbb{E}(X) + log_2(\frac{1}{c}) \geq -log_2(d) \mathbb{E}(X)$ (car $c \leq 1$)
- D'où $\frac{\H(x)}{log_2(d)} \leq \mathbb{E}[l(X)]$
+ \iff -\H(X) \geq -log_2(d) \mathbb{E}(X) + log_2(\frac{1}{c}) \\ \geq -log_2(d) \mathbb{E}(X)$ (car $c \leq 1$)
+
+D'où $\frac{\H(x)}{log_2(d)} \leq \mathbb{E}[l(X)]$
  
- Le cas d'égalité se déduit de celui de $\D$, et a lieu pour $p_X = q$, soit les $p_X(x)$ sont des puissances négatives de $d$
- Le théorème 2 permert de dire que si $p_X$ est défini comme des puissances négatives de $d$, 
- 
- \n 
- 
- ??? Et pour c = 1?????
- 
- \subsubsection*{Q7b}
+Le cas d'égalité se déduit de celui de $\D$, et a lieu pour $p_X = q$, soit les $p_X(x)$ sont des puissances négatives de $d$.
  
 
+\subsubsection*{Q7b}
+Soit $p$ une loi de probabilité telle que qui s'écrit $p_X(x) = \frac{1}{c}d^{-n_x}$ avec $c = \sum_{x \in E} d^{-n_x}$.
 
-%\subsection{Code}
-%\subsubsection*{Automate}
-%\inputminted[linenos=true, fontsize=\small]{python}{AutomateTourner 6.4.2.py}
-%\subsubsection*{Dijkstra et Graphe}
+Cas 1 : $c \leq 1$ Prenons $\forall x \in E, l_0(x) = n_x$
+
+Cas 2 : $c > 1$ Alors soit $k$ tel que $\frac{c}{d^k} \leq 1$
+
+$p_X(x) = \frac{d^k}{c}d^{-n_x - k}$, avec $\sum_{x \in E} d^{-n_x - k} \leq \frac{c}{d^k} \leq 1$
+
+Posons alors $\forall x \in E, l_0(x) = n_x + k$
+
+Cette application vérifie l'inégalité de Kraft-McMillan, et vérifie le cas d'égalité de la question Q7a d'après les calculs
+précédents pour $q$ définie à partir de la fonction $l_0$.
+
+\subsubsection*{Q7c}
+
+
 %\inputminted[linenos=true, fontsize=\small]{python}{dijkstra5.py}
 
 \end{onehalfspacing}
