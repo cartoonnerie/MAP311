@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.3)  19 JUN 2017 00:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.3)  19 JUN 2017 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,10 +1228,8 @@ This could be caused by using -output-directory or -aux-directory
 without setting minted's outputdir, or by using a build tool that 
 changes paths in ways minted cannot detect.
 
-LaTeX Font Info:    Font shape `T1/artemisia/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 30.
 LaTeX Font Info:    Font shape `T1/artemisia/bx/n' will be
-(Font)              scaled to size 11.15991pt on input line 30.
+(Font)              scaled to size 9.29993pt on input line 30.
 LaTeX Font Info:    Try loading font information for OT1+txr on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -1287,8 +1285,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Font shape `T1/artemisia/bx/n' will be
-(Font)              scaled to size 9.29993pt on input line 44.
 
 ! Package inputenc Error: Unicode char ² (U+B2)
 (inputenc)                not set up for use with LaTeX.
@@ -1297,14 +1293,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 $\H(X,Y) = - \sum_{x,y \in E²
+l.61 $\H(X,Y) = - \sum_{x,y \in E²
                                    }  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))}\\ =
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Extra }, or forgotten $.
-l.63 ...y) \log_2{p_X(x)} + \log_2 p_{Y|X = x}(y)}
+l.62 ...y) \log_2{p_X(x)} + \log_2 p_{Y|X = x}(y)}
                                                   \\ =
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1313,7 +1309,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.64 ...n E} p_{Y|X = x}(y) \log_2 p_{Y|X = x}(y)}
+l.63 ...n E} p_{Y|X = x}(y) \log_2 p_{Y|X = x}(y)}
                                                   )\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1329,7 +1325,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 $\I(X,Y) = \sum_{(X,Y) \in E²
+l.68 $\I(X,Y) = \sum_{(X,Y) \in E²
                                    } p_{X,Y}(x,y) \log_2{\frac{p_{X,Y}{x,y}}...
 
 Your command was ignored.
@@ -1344,7 +1340,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70  = \sum_{(X,Y) \in E²
+l.69  = \sum_{(X,Y) \in E²
                            } p_X(x) p_{Y|X=x}(y) \log_2{(p_{Y|X=x}(y))}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1358,42 +1354,50 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71  - \sum_{(X,Y) \in E²
+l.70  - \sum_{(X,Y) \in E²
                            } p_Y(y) p_{X|Y=y}(x) \log_2{(p_{Y}(y))}\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[1
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+! Undefined control sequence.
+l.111  \n
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Rapport.aux) ) 
+[2] (./Rapport.aux) ) 
 Here is how much of TeX's memory you used:
  7832 strings out of 493029
- 118409 string characters out of 6136235
- 211097 words of memory out of 5000000
- 11189 multiletter control sequences out of 15000+600000
- 26858 words of font info for 68 fonts, out of 8000000 for 9000
+ 118382 string characters out of 6136235
+ 212097 words of memory out of 5000000
+ 11187 multiletter control sequences out of 15000+600000
+ 27257 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,5n,35p,797b,1373s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr
-/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaec.enc}{/usr/sh
-are/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisia.enc}{/usr/share/t
-exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fo
-nts/type1/public/gfsartemisia/GFSArtemisia-Bold.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/gfsartemisia/GFSArtemisia-Regular.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rapport.pdf (2 pages, 93210 bytes).
+ 37i,6n,35p,797b,1396s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisi
+a/artemisiaec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/a
+rtemisia.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/s
+hare/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-Bold.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-Regu
+lar.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rapport.pdf (2 pages, 106107 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
