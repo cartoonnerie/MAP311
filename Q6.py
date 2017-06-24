@@ -23,29 +23,29 @@ Pxy = np.array([[1., 0.], [0., 1.],[0., 1.]])
 
 def Hxy(Px, P): #len(Px) = len(P)
     n = len(P)
-    return sum([Px[i] * Hx2(P[i]) for i in range(n)])
+    return sum([Px[i] * Hx(P[i]) for i in range(n)])
 
 limit = Hxy(Px, Pxy)
 
 #Q6b 
 
-k = 5000
-X = np.random.choice(['a', 'b', 'c'], k, p=Px)
-Y = np.zeros(X.shape, dtype ='int32')
-Y[X != 'a'] = 1
-I = np.zeros((k, 3))
-for i in range(k) :
-    I[i] = Pxy[:, Y[i]] * Px / np.sum(Px * Pxy[:, Y[i]])
-H = np.zeros(k)
-Prod = I * np.log2(I)
-Prod[I == 0.0] = 0
-for i in range(k) :
-    H[i] = np.sum(Prod)
-
-plt.plot(range(k), H / range(k) + 1)
-plt.plot(range(k), np.array(range(k)) * limit)
-plt.ymax = 1
-
-plt.show()
+#k = 5000
+#X = np.random.choice(['a', 'b', 'c'], k, p=Px)
+#Y = np.zeros(X.shape, dtype ='int32')
+#Y[X != 'a'] = 1
+#I = np.zeros((k, 3))
+#for i in range(k) :
+#    I[i] = Pxy[:, Y[i]] * Px / np.sum(Px * Pxy[:, Y[i]])
+#H = np.zeros(k)
+#Prod = I * np.log2(I)
+#Prod[I == 0.0] = 0
+#for i in range(k) :
+#    H[i] = np.sum(Prod)
+#
+#plt.plot(range(k), H / range(k) + 1)
+#plt.plot(range(k), np.array(range(k)) * limit)
+#plt.ymax = 1
+#
+#plt.show()
 
 #Q6c
