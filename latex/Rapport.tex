@@ -5,19 +5,20 @@
 \usepackage[utf8]{inputenc}
 
 \usepackage{graphicx} 
-\renewcommand\H{\mathcal{H}}
-\renewcommand\I{\mathcal{I}}
-\renewcommand\B{\mathcal{B}}
-\renewcommand\D{\mathcal{D}}
+\usepackage{qtree} %arbres
+\renewcommand{\H}{\mathcal{H}}
+\newcommand{\I}{\mathcal{I}}
+\newcommand{\B}{\mathcal{B}}
+\newcommand{\D}{\mathcal{D}}
 %\usepackage{amssymb}
 %\usepackage{amsmath}
 \usepackage{amsfonts}
 %\usepackage{amsthm}
 
 \usepackage{setspace} %\onehalfspacing       %% 1,5-spacing
-\usepackage{a4wide} %%Smaller margins = more text per page.
+%\usepackage{a4wide} %%Smaller margins = more text per page.
 
-\usepackage{minted}
+%\usepackage{minted}
 %\usemintedstyle{colorful}
 
 \begin{onehalfspacing}
@@ -123,6 +124,86 @@ précédents pour $q$ définie à partir de la fonction $l_0$.
 
 \subsubsection*{Q7c}
 
+\subsubsection*{Q9a}
+Voici le tableau des occurences.
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+a & b & c & d & e & f \\
+\hline
+2 & 3 & 1 & 2 & 2 & 1 \\
+\hline
+\end{tabular}
+
+On choisit c et f
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+a & b & d & e & cf \\
+\hline
+2 & 3 & 2 & 2 & 2 \\
+\hline
+\end{tabular}
+
+On choisit e et cf
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+a & b & d & ecf \\
+\hline
+2 & 3 & 2 & 4 \\
+\hline
+\end{tabular}
+
+On choisit a et d
+
+\begin{tabular}{|c|c|c|}
+\hline
+b & ad & ecf \\
+\hline
+3 & 4 & 4 \\
+\hline
+\end{tabular}
+
+On choisit b et ad
+
+\begin{tabular}{|c|c|c|}
+\hline
+bad & ecf \\
+\hline
+7 & 4 \\
+\hline
+\end{tabular}
+
+On n'a plus que deux éléments, et construisons donc l'arbre en remontant les étapes précédentes.
+
+\Tree [. bad ecf ]
+
+On décompose bad en b et ad
+
+\Tree [. [.bad b ad ] ecf ]
+
+On décompose ad en a et d
+
+\Tree [. [.bad b [.ad a d ] ] ecf ]
+
+On décompose ecf en e et cf
+
+\Tree [. [.bad b [.ad a d ] ] [.ecf e cf ] ]
+
+On décompose cf en c et f
+
+\Tree [. [.bad b [.ad a d ] ] [.ecf e [.cf c f ] ] ]
+
+On en déduit le codage de Huffman : 
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+a & b & c & d & e & f \\
+\hline
+010 & 00 & 110 & 011 & 10 & 111 \\
+\hline
+\end{tabular}
 
 %\inputminted[linenos=true, fontsize=\small]{python}{dijkstra5.py}
 
