@@ -7,6 +7,7 @@ Created on Tue Jun 20 09:30:45 2017
 import heapq
 import random
 import numpy as np
+from CompObj import Token
 
 import Q6
 
@@ -19,62 +20,11 @@ def occurencies(s):
     pass
 
 
-def InitTokenClass(occurence) :
-    class Token:
-        
-        occ = occurence   
-        
-        def __init__(self, value) :
-            if not value in Token.occ.keys() :
-                raise ValueError
-            self.value = value
-            pass
-        
-        def __lt__(self, other) :
-            if isinstance(other, Token) :
-                return Token.occ[self.value] < Token.occ[other.value]
-            else :
-                raise NotImplementedError
-                pass
-            pass
-        
-        def __le__(self, other) :
-            if isinstance(other, Token) :
-                return Token.occ[self.value] <= Token.occ[other.value]
-            else :
-                raise NotImplementedError
-                pass
-            pass
-        
-        def __ge__(self, other) :
-            if isinstance(other, Token) :
-                return Token.occ[self.value] >= Token.occ[other.value]
-            else :
-                raise NotImplementedError
-                pass
-            pass
-        
-        def __gt__(self, other) :
-            if isinstance(other, Token) :
-                return Token.occ[self.value] > Token.occ[other.value]
-            else :
-                raise NotImplementedError
-                pass
-            pass
-        
-        def __str__(self) :
-            return str(self.value)
-        pass
-    
-        def __repr__(self) :
-            return str(self)
-    
-    return Token
 
-s = 'abebbcdadef'#'sckyejvtscloqpcjvovioqzbjhquviydrf'
+
+s = 'abebbcdadef'#sckyejvtscloqpcjvovioqzbjhquviydrf'
 sunit = set(s) #pas utilisé, pourquoi ?
 tas = []
-Char = InitTokenClass(occurencies(s))
 for i in sunit :
     heapq.heappush(tas, Char(i))
     pass
