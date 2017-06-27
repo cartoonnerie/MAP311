@@ -135,6 +135,8 @@ a & b & c & d & e & f \\
 \hline
 \end{tabular}
 
+On choisit c et f
+
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 a & b & d & e & cf \\
@@ -142,6 +144,8 @@ a & b & d & e & cf \\
 2 & 3 & 2 & 2 & 2 \\
 \hline
 \end{tabular}
+
+On choisit e et cf
 
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -151,6 +155,8 @@ a & b & d & ecf \\
 \hline
 \end{tabular}
 
+On choisit a et d
+
 \begin{tabular}{|c|c|c|}
 \hline
 b & ad & ecf \\
@@ -159,6 +165,8 @@ b & ad & ecf \\
 \hline
 \end{tabular}
 
+On choisit b et ad
+
 \begin{tabular}{|c|c|c|}
 \hline
 bad & ecf \\
@@ -166,23 +174,36 @@ bad & ecf \\
 7 & 4 \\
 \hline
 \end{tabular}
-% 
-% \Tree [. bad ecf ]
-% 
-% ab
-% 
-% \Tree [. .bad[. b ad] ecf]
-% 
-% \Tree [. .bad[. b [.ad a d] ecf]
-% 
-% \Tree [. .bad[. b [.ad a d] [.ecf e cf]]
 
-\Tree [. .bad[. b [.ad a d] [.ecf e [.cf c f]]
+On n'a plus que deux éléments, et construisons donc l'arbre en remontant les étapes précédentes.
 
-\Tree
-[.IP [ Roses ].NP_i [.I\1 [ are ].I\0
-[.VP t_i [ [ going ].V\0 \qroof{out of style}.PP ].V\1 ].VP
-].I\1 ]
+\Tree [. bad ecf ]
+
+On décompose bad en b et ad
+
+\Tree [. [.bad b ad ] ecf ]
+
+On décompose ad en a et d
+
+\Tree [. [.bad b [.ad a d ] ] ecf ]
+
+On décompose ecf en e et cf
+
+\Tree [. [.bad b [.ad a d ] ] [.ecf e cf ] ]
+
+On décompose cf en c et f
+
+\Tree [. [.bad b [.ad a d ] ] [.ecf e [.cf c f ] ] ]
+
+On en déduit le codage de Huffman : 
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+a & b & c & d & e & f \\
+\hline
+010 & 00 & 110 & 011 & 10 & 111 \\
+\hline
+\end{tabular}
 
 %\inputminted[linenos=true, fontsize=\small]{python}{dijkstra5.py}
 
