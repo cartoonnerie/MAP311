@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.0 (MiKTeX 2.9.6210 64-bit)  (format=lualatex 2017.4.11)  29 JUN 2017 12:03
+This is LuaTeX, Version 1.0.0 (MiKTeX 2.9.6210 64-bit)  (format=lualatex 2017.4.11)  29 JUN 2017 13:44
  restricted system commands enabled.
 **Rapport.tex
 (./Rapport.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.719 seconds
+luaotfload | main : initialization completed in 0.738 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 ("D:/Programmes/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -524,33 +524,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-[1
+
+Underfull \vbox (badness 6641) has occurred while \output is active []
+
+ [1
 
 {C:/Users/Quentin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-Missing character: There is no ² (U+00B2) in font cmr7!
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
- []
-
-Missing character: There is no ² (U+00B2) in font cmr7!
-Missing character: There is no ² (U+00B2) in font cmr7!
-Missing character: There is no ² (U+00B2) in font cmr7!
-
-Overfull \hbox (34.30594pt too wide) in paragraph at lines 90--95
-\OT1/cmr/m/n/10 = [][] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\
-OT1/cmr/m/n/10 )\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr
-/m/n/10 ) [][] [] \OMS/cmsy/m/n/10   [][] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (
-\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cm
-m/m/it/10 x\OT1/cmr/m/n/10 ) [][] [][] 
  []
 
 
@@ -558,8 +548,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
+Missing character: There is no ² (U+00B2) in font cmr7!
+Missing character: There is no ² (U+00B2) in font cmr7!
+Missing character: There is no ² (U+00B2) in font cmr7!
+Missing character: There is no ² (U+00B2) in font cmr7!
+Missing character: There is no ² (U+00B2) in font cmr7!
+Missing character: There is no ² (U+00B2) in font cmr7!
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Overfull \hbox (53.68907pt too wide) in paragraph at lines 114--114
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
@@ -569,32 +573,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-[2]
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 154.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 171.
 ("D:/Programmes/MiKTeX 2.9/tex/latex/lm/t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [3] [4
-Missing character: There is no œ (U+0153) in font ec-lmbx12!
-] [5] (./Rapport.aux))
+) [4] [5] [6] [7]
+(./Rapport.aux))
 
 Here is how much of LuaTeX's memory you used:
  4449 strings out of 494553
  100000,154059 words of node,token memory allocated
- 3949 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 369 glue, 1 kern, 1 penalty, 378 attribute, 51 glue
-_spec, 96 attribute_list, 1 write nodes
-   avail lists: 2:3055,3:264,4:6,5:188,6:912,7:1404,8:165,9:863,10:5,11:46
+ 5265 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 497 glue, 1 kern, 1 penalty, 546 attribute, 51 glue
+_spec, 138 attribute_list, 1 write nodes
+   avail lists: 2:3240,3:279,4:6,5:230,6:824,7:1520,8:180,9:884,10:5,11:44
  8223 multiletter control sequences out of 65536+200000
  66 fonts using 4189647 bytes
- 38i,10n,30p,258b,1308s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,30p,258b,1312s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programmes/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<D:/Programmes/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmmi10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/amsf
@@ -611,9 +619,9 @@ grammes/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><D:/Programmes/MiKTeX 2.9/fon
 ts/type1/public/lm/lmtt10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/symbols/msam10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on Rapport.pdf (5 pages, 271882 bytes).
+Output written on Rapport.pdf (7 pages, 273607 bytes).
 
-PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
