@@ -7,7 +7,7 @@ Created on Tue Jun 20 09:30:45 2017
 import heapq
 import random
 import numpy as np
-from CompObj import Token
+from CustomObjects import Token, HuffTree
 
 import Q6
 
@@ -19,12 +19,16 @@ def occurencies(s):
     return rep
     pass
 
+def huffman(s):
+    tas = []
+    occ = occurencies(s)
+    for char in set(s) :
+        heapq.heappush(tas, Token(char, occ[char]))
+        
+    def aux(tas):
+        
 
 
-
-s = 'abebbcdadef'#sckyejvtscloqpcjvovioqzbjhquviydrf'
-sunit = set(s) #pas utilisé, pourquoi ?
-tas = []
 for i in sunit :
     heapq.heappush(tas, Char(i))
     pass
@@ -33,9 +37,8 @@ print(tas)
 def tasOccurences(s):
     sunit = set(s)
     tas = []
-    Char = InitTokenClass(occurencies(s))
     for i in sunit :
-        heapq.heappush(tas, Char(i))
+        heapq.heappush(tas, Token(i, ))
     return tas
 
 def huffman(s): #tentative non aboutie
