@@ -10,105 +10,184 @@
 \newcommand{\I}{\mathcal{I}}
 \newcommand{\B}{\mathcal{B}}
 \newcommand{\D}{\mathcal{D}}
-%\usepackage{amssymb}
-%\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsmath}
 \usepackage{amsfonts}
 %\usepackage{amsthm}
 
 \usepackage{setspace} %\onehalfspacing       %% 1,5-spacing
 %\usepackage{a4wide} %%Smaller margins = more text per page.
 
-%\usepackage{minted}
-%\usemintedstyle{colorful}
+\usepackage{minted}
+% En-têtes précédentes
+\newminted{python}{
+    linenos=true,
+    bgcolor=lightgray,
+    tabsize=4,
+    gobble=8,
+    fontfamily=courier,
+    fontsize=\small,
+    xleftmargin=5pt,
+    xrightmargin=5pt
+}
+
+\usemintedstyle{colorful}
+\newenvironment{Q}[1]{%
+\vspace{1ex}
+\underline{\textbf{Question #1\\}}
+\newline
+}{
+\vspace{2ex}
+}
+
+\title{Entropie et codage de source}
+\author{Alice Andrès, Quentin SOubeyran}
 
 \begin{onehalfspacing}
 \begin{document}
+\maketitle
 
-\section*{Entropie et codage de source}
+\section{Entropie d'une distribution de probabilité}
 
-\subsubsection*{Q2}
-$\D(\B(a)||\B(b))
-= a log_2(\frac{a}{b}) + (1-a) log_2(\frac{1-a}{1-b})$
+\subsection{Cadre de travail et idée intuitive}
+\begin{Q}{1}
 
-D'où $\D(\B(a)||\B(b))  - \D(\B(b)||\B(a)) 
-= (a+b)\log_2{\frac{a}{b}} + (2-a-b)\log_2{\frac{1-a}{1-b}$
+\end{Q}
+\subsection{Entropie relative et information mutuelle}
+\begin{Q}{2}
+\[
+\D(\B(a)||\B(b))
+= a \operatorname{log_2}(\frac{a}{b}) + (1-a) \operatorname{log_2}(\frac{1-a}{1-b})
+\]
+
+D'où
+\[\D(\B(a)||\B(b))  - \D(\B(b)||\B(a)) 
+= (a+b)\log_2{\frac{a}{b}} + (2-a-b)\log_2{\frac{1-a}{1-b}}
+\]
 
 Or pour $a = \frac{1}{4}$ et $b = \frac{1}{2}$, 
-$\D(\B(a)||\B(b))  - \D(\B(b)||\B(a))
-= \frac{3}{4} \log_2{(2)} + \frac{5}{4} \log_2{(\frac{3}{2})} \neq 0 $
+\[
+\D(\B(a)||\B(b))  - \D(\B(b)||\B(a))
+= \frac{3}{4} \log_2{(2)} + \frac{5}{4} \log_2{(\frac{3}{2})} \neq 0
+\]
 
-Ainsi, dans le cas général, $\D(p||q) \nequal \D(q||p)$
 
-\subsubsection*{Q3a}
-La fonction $- \log_2$ est strictement convexe. Alors, d'après l'inégalité de Jensen, 
+Ainsi, dans le cas général, $ \D (p||q) \neq \D(q||p)$
+\end{Q}
 
-$\sum_{x \in E} p(x) (-\log_2{(\frac{q(x)}{p(x)})}) \geq 
--\log_2{(\sum_{x \in E}p(x) \frac{q(x)}{p(x)})} = -log_2{(\sum_{x \in E}q(x))} = 0$
-
-Ainsi $D(p||q) \geq 0$
-
+\begin{Q}{3a}
+La fonction $- \log_2$ est strictement convexe. Alors, d'après l'inégalité de Jensen,
+\begin{align*}
+\sum_{x \in E} \operatorname{p}(x) \left(
+	- \operatorname{log_2}\frac{q(x)}{p(x)}
+	\right) &\geq 
+		-\log_2{\sum_{x \in E} p(x) \frac{q(x)}{p(x)}} \\
+&\geq -\operatorname{log_2} \sum_{x \in E}q(x) \\
+&\geq 0 \\
+\end{align*}
+Ainsi $D(p||q) \geq 0$.
 La stricte convexité de $-\log_2$ permet de conclure qu'il y a égalité si et seulement si $\forall x \in E$, $p(x) = q(x)$, soit $p=q$. 
+\end{Q}
 
-\subsubsection*{Q3b}
+\begin{Q}{3b}
 
 D'après Q3a, $\I(X,Y) = \D(p_{(X,Y)} || p_X \otimes p_Y) \geq 0$
 
-Avec égalité si et seulement si $p_{(X,Y)} = p_X \otimes p_Y \iff X$ et $Y$ sont indépendants.
+Avec égalité si et seulement si $p_{(X,Y)} = p_X \otimes p_Y$ soit $X$ et $Y$ indépendantes.
+\end{Q}
 
-\subsubsection*{Q4a}
-
-$\H(X,Y) = - \sum_{x,y \in E²}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))}\\ = 
--\sum_{x \in E} \sum_{y \in E} p_X(x) p_{Y|X = x}(y) \log_2{p_X(x)} + \log_2 p_{Y|X = x}(y)}\\ =
-\H(X) + \sum_{x \in E} p_X(x) (-\sum_{Y \in E} p_{Y|X = x}(y) \log_2 p_{Y|X = x}(y)})\\
- = \H(X) + \H(Y|X)$
+\begin{Q}{4a}
+\begin{align*}
+\H(X,Y) &= - \sum_{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
+	&= -\sum_{x \in E} \sum_{y \in E} p_X(x) p_{Y|X = x}(y) \log_2{p_X(x)}
+		+ \log_2{p_{Y|X= x}(y)} \\
+	&= \H(X) + \sum_{x \in E} p_X(x)
+		\left(
+			-\sum_{Y \in E} p_{Y|X = x}(y) \log_2{p_{Y|X = x}(y)}
+		\right) \\
+ = \H(X) + \H(Y|X)
+\end{align*}
+Et l'on a montré l'égalité.
+\end{Q} 
  
- \subsubsection*{Q4b}
- 
-$\I(X,Y) = \sum_{(X,Y) \in E²} p_{X,Y}(x,y) \log_2{\frac{p_{X,Y}{x,y}}{p_X(x)p_Y(y)}} \\
- = \sum_{(X,Y) \in E²} p_X(x) p_{Y|X=x}(y) \log_2{(p_{Y|X=x}(y))} 
- - \sum_{(X,Y) \in E²} p_Y(y) p_{X|Y=y}(x) \log_2{(p_{Y}(y))}\\
- = \H(Y) - \H(Y|X)\\
-= \H(X) - \H(X|Y)$ (par symétrie des rôles de X et Y) 
+\begin{Q}{4b}
 
-$= \H(Y) - (\H(X,Y) - \H(X))$ (Q4a)
+\begin{align*}
+\I(X,Y) &= \sum_{(X,Y) \in E²} p_{X,Y}(x,y)
+				\log_2{\frac{p_{X,Y}{(x,y)}}{p_X(x)p_Y(y)}} \\
+	&= \sum_{(X,Y) \in E²}
+		\operatorname{p_X}(x) p_{Y|X=x}(y) \log_2{(p_{Y|X=x}(y))} 
+ 		- \sum_{(X,Y) \in E²}
+ 			p_Y(y) p_{X|Y=y}(x) \log_2{(p_{Y}(y))} \\
+	&= \H(Y) - \H(Y|X) \\
+	&= \H(X) - \H(X|Y) \text{\quad par symétrie des rôles de X et Y)} \\
+	&= \H(Y) - \left(\H(X,Y) - \H(X)\right) \text{\quad cf. (Q4a)} \\
+	&= \H(X) + \H(Y) - \H(X,Y)
+\end{align*}
+\end{Q}
 
-$= \H(X) + \H(Y) - \H(X,Y)$
+\begin{Q}{4c}
 
-
-\subsubsection*{Q4c}
-
-D'après 4b, $\H(X,Y) = \H(X) - \I(X;Y)$ Or $\I(X;Y) \geq 0$
+D'après Q4b, $\H(X,Y) = \H(X) - \I(X;Y)$ Or $\I(X;Y) \geq 0$
 
 Ainsi, $\H(X,Y) \leq \H(X)$
+\end{Q}
 
-\subsubsection*{Q5a}
+\begin{Q}{5a}
 
 On utilise l'algorithme d'inversion de la fonction de répartition pour une loi discrète.
 
 On utilise python pour déterminer un nombre $a$ aléatoirement suivant la loi uniforme, entre 0 et 1, et on pose Y tel que : 
-
-$Y = x_i  \iff \sum_{j = 1}^{i-1} p_j < a \leq \sum_{j = 1}^{i} p_{j+1}$
+\[
+Y = x_i  \iff \sum_{j = 1}^{i-1} p_j < a \leq \sum_{j = 1}^{i} p_{j+1}
+\]
 
 On peut appliquer ce principe pour $X \leadsto \B(\frac{1}{3})$
 
-Soit $a \leadsto \mathcal{U}([0;1])$ Notons aussi $x_0 = 1$ et $x_1 = 0$
+Soit $a \sim \mathcal{U}([0;1])$. Notons aussi $x_0 = 1$ et $x_1 = 0$
 
 Alors $\mathbb{P}(X = x_0) = \frac{2}{3} = \mathbb{P}(a < \frac{2}{3})$ et 
 $\mathbb{P}(X = x_1) = \frac{1}{3} = \mathbb{P}(a > \frac{2}{3})$.
+\end{Q}
 
-\subsubsection*{Q7a}
+\begin{Q}{5b}
 
-$\D(p_X||q) = \sum_{x \in E}p_X(x)log_2(\frac{p_X(x)}{\frac{1}{c}d^{-l(x)}}) \geq 0$
+\end{Q}
 
-Alors $\sum_{x \in E}p_X(x)log_2(p_X(x)) \geq  -\sum_{x \in E}p_X(x)l(x)log_2(d) + \sum_{x \in E}p_X(x)log_2(\frac{1}{c}) \\
- \iff -\H(X) \geq -log_2(d) \mathbb{E}(X) + log_2(\frac{1}{c}) \\ \geq -log_2(d) \mathbb{E}(X)$ (car $c \leq 1$)
+\begin{Q}{6a}
+
+\end{Q}
+
+\begin{Q}{6b}
+\end{Q}
+
+\begin{Q}{6c}
+\end{Q}
+
+\section{Application au codage de source}
+\subsection{Théorème du codage de source}
+
+\begin{Q}{7a}
+
+\begin{align*}
+\D(p_X||q) &= \sum_{x \in E}p_X(x)log_2(\frac{p_X(x)}{\frac{1}{c}d^{-l(x)}}) \\
+&\geq 0
+\end{align*}
+
+Alors
+\begin{align*}
+\sum_{x \in E}p_X(x)log_2(p_X(x)) &\geq  -\sum_{x \in E}p_X(x)l(x)log_2(d) + \sum_{x \in E}p_X(x)log_2(\frac{1}{c}) \\
+ &\iff\\
+-\H(X) &\geq -log_2(d) \mathbb{E}(X) + log_2(\frac{1}{c})
+\\ &\geq -log_2(d) \mathbb{E}(X) \texttt{\quad(car} \leq 1 \textsc{)}
+\end{align*}
 
 D'où $\frac{\H(x)}{log_2(d)} \leq \mathbb{E}[l(X)]$
  
 Le cas d'égalité se déduit de celui de $\D$, et a lieu pour $p_X = q$, soit les $p_X(x)$ sont des puissances négatives de $d$.
- 
+\end{Q}
 
-\subsubsection*{Q7b}
+\begin{Q}{7b}
 Soit $p$ une loi de probabilité telle que qui s'écrit $p_X(x) = \frac{1}{c}d^{-n_x}$ avec $c = \sum_{x \in E} d^{-n_x}$.
 
 Cas 1 : $c \leq 1$ Prenons $\forall x \in E, l_0(x) = n_x$
@@ -121,12 +200,48 @@ Posons alors $\forall x \in E, l_0(x) = n_x + k$
 
 Cette application vérifie l'inégalité de Kraft-McMillan, et vérifie le cas d'égalité de la question Q7a d'après les calculs
 précédents pour $q$ définie à partir de la fonction $l_0$.
+\end{Q}
 
-\subsubsection*{Q7c}
+\begin{Q}{7c}
+La fonction puissance étant bijective sur $\mathbb{R^+}$, on a :
+\[
+\forall x \in E, \exists \alpha_x, \quad p_X(x) = d ^{\alpha_x}
+\]
+Posons $c$ et $\beta$ tels que :
+\[
+c = \sum_{x \in E} d ^{\alpha_x} = d^\beta
+\]
 
-\subsubsection*{Q9a}
-Voici le tableau des occurences.
+Alors
+\[
+\forall x \in E, \quad p_X(x) = \frac{1}{c} d^{-(\beta - \alpha_x)}
+\]
+On pose donc
+\[
+l_0(x) = \beta - \alpha_x
+\]
+D'où
+\begin{align*}
+\mathbb{E}[\overline{l_0}(X)] &= \sum_{x \in E} \overline{l_0}(X) \mathbb{P}(X=x)\\
+&< \sum_{x \in E} l_0(X)\mathbb{P}(X=x) + \sum_{x \in E}\mathbb{P}(X=x)
+\end{align*}
+Or d'après la question Q7a, la forme de $p_X(x)= \frac{1}{c} d^{-(\beta - \alpha_x)}$ assure :
+\[
+\frac{\H(X)}{\log_2(d)} = \mathbb{E}[l(X)] \text{\quad puisque } \D(p_X||p_X) = 0
+\]
+On en conclut :
+\[
+\mathbb{E}[\overline{l_0}(X)] < \frac{\H(X)}{\log_2(d)} + 1
+\]
+\end{Q}
 
+\subsection{Mise en oeuvre de l'algorithme - L'algorithme de Huffman}
+
+\begin{Q}{9a}
+Voici le tableau des occurrences.
+
+\begin{center}
+\vspace{1ex}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 a & b & c & d & e & f \\
@@ -134,9 +249,13 @@ a & b & c & d & e & f \\
 2 & 3 & 1 & 2 & 2 & 1 \\
 \hline
 \end{tabular}
+\vspace{1ex}
+\end{center}
 
 On choisit c et f
 
+\begin{center}
+\vspace{1ex}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 a & b & d & e & cf \\
@@ -144,9 +263,13 @@ a & b & d & e & cf \\
 2 & 3 & 2 & 2 & 2 \\
 \hline
 \end{tabular}
+\vspace{1ex}
+\end{center}
 
 On choisit e et cf
 
+\begin{center}
+\vspace{1ex}
 \begin{tabular}{|c|c|c|c|}
 \hline
 a & b & d & ecf \\
@@ -154,9 +277,13 @@ a & b & d & ecf \\
 2 & 3 & 2 & 4 \\
 \hline
 \end{tabular}
+\vspace{1ex}
+\end{center}
 
 On choisit a et d
 
+\begin{center}
+\vspace{1ex}
 \begin{tabular}{|c|c|c|}
 \hline
 b & ad & ecf \\
@@ -164,9 +291,13 @@ b & ad & ecf \\
 3 & 4 & 4 \\
 \hline
 \end{tabular}
+\vspace{1ex}
+\end{center}
 
 On choisit b et ad
 
+\begin{center}
+\vspace{1ex}
 \begin{tabular}{|c|c|c|}
 \hline
 bad & ecf \\
@@ -174,6 +305,8 @@ bad & ecf \\
 7 & 4 \\
 \hline
 \end{tabular}
+\vspace{1ex}
+\end{center}
 
 On n'a plus que deux éléments, et construisons donc l'arbre en remontant les étapes précédentes.
 
@@ -204,12 +337,33 @@ a & b & c & d & e & f \\
 010 & 00 & 110 & 011 & 10 & 111 \\
 \hline
 \end{tabular}
+\end{Q}
 
-%\inputminted[linenos=true, fontsize=\small]{python}{dijkstra5.py}
+\begin{Q}{9b}
+\end{Q}
+
+\begin{Q}{9c}
+\end{Q}
+
+\begin{Q}{9d}
+\end{Q}
+
+\begin{Q}{9e}
+
+\begin{minted}{python}
+ def test(a, b):
+      a = b
+      return b
+\end{minted}
+
+\inputminted[linenos=true, fontsize=\small]{python}{Q9.py}
+
+\end{Q}
+
+\inputminted[linenos=true, fontsize=\small]{python}{Q9.py}
+
+
+
 
 \end{onehalfspacing}
 \end{document}
-
-
-
-

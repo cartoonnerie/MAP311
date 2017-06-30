@@ -19,6 +19,18 @@
 %\usepackage{a4wide} %%Smaller margins = more text per page.
 
 \usepackage{minted}
+% En-têtes précédentes
+\newminted{python}{
+    linenos=true,
+    bgcolor=lightgray,
+    tabsize=4,
+    gobble=8,
+    fontfamily=courier,
+    fontsize=\small,
+    xleftmargin=5pt,
+    xrightmargin=5pt
+}
+
 \usemintedstyle{colorful}
 \newenvironment{Q}[1]{%
 \vspace{1ex}
@@ -337,8 +349,10 @@ a & b & c & d & e & f \\
 \end{Q}
 
 \begin{Q}{9e}
+
+\inputminted[linenos=true, fontsize=\small]{python}{Q9.py}
+
 \end{Q}
 
-%\inputminted[linenos=true, fontsize=\small]{python}{dijkstra5.py}
 \end{onehalfspacing}
 \end{document}
