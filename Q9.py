@@ -61,14 +61,14 @@ def genererMot(size, chars):
 #https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits-in-python
     return ''.join(random.choice(chars) for _ in range(size))
 
-#longueur = 13
-#alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k']
-#d = len(alphabet)
-##texte = id_generator(longueur, alphabet)
-#print(texte)
-##codage = huffman(texte) #attendu un dicttionnaire de la forme {char : codage}
-#freq = np.array([x for x in occurencies(texte).values()])
-#freq = freq / longueur
+longueur = 26
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k']
+d = len(alphabet)
+texte = genererMot(longueur, alphabet)
+print(texte)
+codage = huffman(texte) #attendu un dicttionnaire de la forme {char : codage}
+freq = np.array([x for x in occurencies(texte).values()])
+freq = freq / longueur
 #entropie = Q6.Hx(freq)
 
 #avg = np.average(np.array([x for x in codage.values()]))
