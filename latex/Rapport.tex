@@ -10,6 +10,7 @@
 \newcommand{\I}{\mathcal{I}}
 \newcommand{\B}{\mathcal{B}}
 \newcommand{\D}{\mathcal{D}}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -362,17 +363,34 @@ a & b & c & d & e & f \\
 \end{Q}
 
 \begin{Q}{9b}
+Voir le fichier Python Q9.py
 \end{Q}
 
 \begin{Q}{9c}
 \end{Q}
 
 \begin{Q}{9d}
+Le code est disponible dans le fichier Q9.py.
+On constate que le langage de Huffman correspond bien à un langage décrit par le Théorème de Schannon, puisqu'il vérifie
+la double inégalité (iii)
+
+En effet, on obtient pourun proba uniforme : 
+\[ 3.4585110748 \leq 3.54475447545 < 4.4585110748 \]
+Et pour la répartition des lettres de la langue française : 
+\[ 2.77115542449 \leq 2.83174404962 < 3.77115542449 \]
 \end{Q}
 
 \begin{Q}{9e}
 
-%\inputminted[linenos=true, fontsize=\small]{python}{Q9.py}
+Les moyennes obtenues sont de l'ordre de 3, soit très intéressantes par rapport à 8 bit ; surtout lorsque la 
+répartition des caractères n'est pas uniforme.
+
+Mais l'alphabet considéré est restreint par rapport à ce que les 8 bits peuvent coder. Il est donc plus pertinent de comparer au nombre
+minimal de bits pour coder 11 caractères, qui est de $log_2(11) \approx 3,45$.
+
+On a donc besoin de 4 bits au minimum pour coder ces 11 caractères ; cela est aussi nécessaire avec le codage de Huffman lorsque la 
+répartition est uniforme. On gagne cependant un bit lorsques les fréquences sont disparates : 
+on passe à 3 bits. ($\floor{\mathbb{E}(l(X))}$).
 
 \end{Q}
 

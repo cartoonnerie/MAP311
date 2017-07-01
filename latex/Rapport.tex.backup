@@ -18,20 +18,20 @@
 \usepackage{setspace} %\onehalfspacing       %% 1,5-spacing
 %\usepackage{a4wide} %%Smaller margins = more text per page.
 
-\usepackage{minted}
-% En-têtes précédentes
-\newminted{python}{
-    linenos=true,
-    bgcolor=lightgray,
-    tabsize=4,
-    gobble=8,
-    fontfamily=courier,
-    fontsize=\small,
-    xleftmargin=5pt,
-    xrightmargin=5pt
-}
-
-\usemintedstyle{colorful}
+%\usepackage{minted}
+%% En-têtes précédentes
+%\newminted{python}{
+%    linenos=true,
+%    bgcolor=lightgray,
+%    tabsize=4,
+%    gobble=8,
+%    fontfamily=courier,
+%    fontsize=\small,
+%    xleftmargin=5pt,
+%    xrightmargin=5pt
+%}
+%
+%\usemintedstyle{colorful}
 \newenvironment{Q}[1]{%
 \vspace{1ex}
 \underline{\textbf{Question #1\\}}
@@ -51,6 +51,28 @@
 
 \subsection{Cadre de travail et idée intuitive}
 \begin{Q}{1}
+Comme $X \sim \B(N,p)$, on a :
+\[
+p(x) = {N \choose k} p^k (1-p)^{(N-k)}
+\]
+%\begin{align*}
+%\H(x) &= - \sum_{k=0}^N p(x) \log_2(p(x)) \\
+%	&= - \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} \log_2 \left({N \choose k} p^k (1-p)^{(N-k)}\right) \\
+%	&= \log_2(N!) \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} \left( \log_2\left(k!(N-k)!\right) \right) \\
+%	&\qquad- \log_2(p) \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} k \\
+%	&\qquad- \log_2(1-p) \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} (N-k) \\
+%	&= \log_2(N!) \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} \left( \log_2\left(k!(N-k)!\right) \right) \\
+%	&\qquad-pN\log_2(p) - (1-p)N\log_2(1-p) 
+%\end{align*}
+
+On peut ainsi calculer l'entropie $\H$ de $X$ numériquement. Simulons $n$ variables aléatoires et calculons la différence entre $2^{-n\H}$ et $p_X(x_1)...p_X(x_n)$.
+
+\begin{center}
+\includegraphics[width=\textwidth]{Q1.jpg}
+\end{center}
+
+On remarque que la différence converge rapidement vers 0 (cette observation est confirmée pour un grand nombre de simulation, 10000 par exemple).
+
 
 \end{Q}
 \subsection{Entropie relative et information mutuelle}
@@ -151,7 +173,7 @@ $\mathbb{P}(X = x_1) = \frac{1}{3} = \mathbb{P}(a > \frac{2}{3})$.
 \end{Q}
 
 \begin{Q}{5b}
-
+Voir le code dans le fichier Q5.py.
 \end{Q}
 
 \begin{Q}{6a}
@@ -346,24 +368,19 @@ a & b & c & d & e & f \\
 \end{Q}
 
 \begin{Q}{9d}
+Le code est disponible dans le fichier Q9.py.
+On constate que le langage de Huffman correspond bien à un langage décrit par le Théorème de Schannon, puisqu'il vérifie
+la double inégalité (iii)
+
+En effet, on obtient pourun proba uniforme : 3.4585110748 0.322723181409 < 4.4585110748
+Et pour la répartition des lettres de la langue française : 2.77115542449 0.257431277238 < 3.77115542449
 \end{Q}
 
 \begin{Q}{9e}
 
-\begin{minted}{python}
- def test(a, b):
-      a = b
-      return b
-\end{minted}
-
-\inputminted[linenos=true, fontsize=\small]{python}{Q9.py}
+%\inputminted[linenos=true, fontsize=\small]{python}{Q9.py}
 
 \end{Q}
-
-\inputminted[linenos=true, fontsize=\small]{python}{Q9.py}
-
-
-
 
 \end{onehalfspacing}
 \end{document}

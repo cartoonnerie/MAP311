@@ -1,48 +1,16 @@
-This is LuaTeX, Version 1.0.0 (MiKTeX 2.9.6210 64-bit)  (format=lualatex 2017.4.11)  1 JUL 2017 13:14
- restricted system commands enabled.
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.3)  1 JUL 2017 15:16
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
 **Rapport.tex
 (./Rapport.tex
-LaTeX2e <2017/01/01> patch level 3
-Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
-Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
-llection.(using cache: C:/Users/Quentin/AppData/Local/MiKTeX/2.9/luatex-cache/ge
-neric)
-luaotfload | conf : Root cache directory is C:/Users/Quentin/AppData/Local/MiKTe
-X/2.9/luatex-cache/generic/names.
-luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
--resolved path “D:/Programmes/MiKTeX 2.9/tex/luatex/luaotfload/fontloader-2017
--02-11.lua”.
-Lua-only attribute luaotfload@state = 1
-Lua-only attribute luaotfload@noligature = 2
-Lua-only attribute luaotfload@syllabe = 3
-luaotfload | init : Context OpenType loader version “3.027”
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 4
-luaotfload | conf : Root cache directory is C:/Users/Quentin/AppData/Local/MiKTe
-X/2.9/luatex-cache/generic/names.
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
-.
-luaotfload | main : initialization completed in 0.758 seconds
-Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
-("D:/Programmes/MiKTeX 2.9/tex/latex/base/article.cls"
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("D:/Programmes/MiKTeX 2.9/tex/latex/base/size10.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from C:/Users/Quentin/AppData/Local
-/MiKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc(load luc: C:/Users/Q
-uentin/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman10-regular
-.luc))
+)
 \c@part=\count79
 \c@section=\count80
 \c@subsection=\count81
@@ -54,208 +22,409 @@ uentin/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman10-regular
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("D:/Programmes/MiKTeX 2.9/tex/generic/babel/babel.sty"
-Package: babel 2016/04/23 3.9r The Babel package
-
-("D:/Programmes/MiKTeX 2.9/tex/generic/babel/luababel.def"
-\l@afrikaans=\language1
-\l@ancientgreek=\language2
-\l@arabic=\language3
-\l@armenian=\language4
-\l@assamese=\language5
-\l@basque=\language6
-\l@bengali=\language7
-\l@bokmal=\language8
-\l@bulgarian=\language9
-\l@catalan=\language10
-\l@classiclatin=\language11
-\l@coptic=\language12
-\l@croatian=\language13
-\l@czech=\language14
-\l@danish=\language15
-\l@dutch=\language16
-\l@esperanto=\language17
-\l@estonian=\language18
-\l@farsi=\language19
-\l@finnish=\language20
-\l@french=\language21
-\l@galician=\language22
-\l@georgian=\language23
-\l@german=\language24
-\l@german-x-2017-03-31=\language25
-\l@greek=\language26
-\l@gujarati=\language27
-\l@hindi=\language28
-\l@hungarian=\language29
-\l@ibycus=\language30
-\l@icelandic=\language31
-\l@indonesian=\language32
-\l@interlingua=\language33
-\l@irish=\language34
-\l@italian=\language35
-\l@kannada=\language36
-\l@kurmanji=\language37
-\l@latin=\language38
-\l@latvian=\language39
-\l@lithuanian=\language40
-\l@malayalam=\language41
-\l@marathi=\language42
-\l@mongolian=\language43
-\l@mongolianlmc=\language44
-\l@monogreek=\language45
-\l@ngerman=\language46
-\l@ngerman-x-2017-03-31=\language47
-\l@nynorsk=\language48
-\l@oriya=\language49
-\l@panjabi=\language50
-\l@piedmontese=\language51
-\l@pinyin=\language52
-\l@polish=\language53
-\l@portuguese=\language54
-\l@romanian=\language55
-\l@romansh=\language56
-\l@russian=\language57
-\l@sanskrit=\language58
-\l@serbian=\language59
-\l@serbianc=\language60
-\l@slovak=\language61
-\l@slovenian=\language62
-\l@spanish=\language63
-\l@swedish=\language64
-\l@swissgerman=\language65
-\l@tamil=\language66
-\l@telugu=\language67
-\l@thai=\language68
-\l@turkish=\language69
-\l@turkmen=\language70
-\l@ukenglish=\language71
-\l@ukrainian=\language72
-\l@uppersorbian=\language73
-\l@usenglishmax=\language74
-\l@welsh=\language75
 )
-*************************************
-* Local config file bblopts.cfg used
-*
-("D:/Programmes/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
-babel
-)
-("D:/Programmes/MiKTeX 2.9/tex/generic/babel-french/frenchb.ldf"
-Language: frenchb 2017/01/30 v3.2g French support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
 
-("D:/Programmes/MiKTeX 2.9/tex/generic/babel/babel.def"
-File: babel.def 2016/04/23 3.9r Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/frenchb.ldf
+Language: frenchb 2016/02/13 v3.1l French support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
-
-("D:/Programmes/MiKTeX 2.9/tex/generic/babel/luababel.def"))
+)
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
-\FB@nonchar=\count88
 \FBcolonskip=\skip43
 \FBthinskip=\skip44
-\FB@spacing=\attribute5
-\FB@addDPspace=\attribute6
-\FB@addGUILspace=\attribute7
-Package frenchb.ldf Info: No need for active punctuation characters
-(frenchb.ldf)             with this version of LuaTeX!
-(frenchb.ldf)             reported on input line 232.
+Package babel Info: Making : an active character on input line 342.
+Package babel Info: Making ; an active character on input line 343.
+Package babel Info: Making ! an active character on input line 344.
+Package babel Info: Making ? an active character on input line 345.
 \FBguillskip=\skip45
-\FBguill@level=\count89
+\FBguill@level=\count88
 \FB@everypar=\toks14
 \FB@Mht=\dimen104
-LaTeX Info: Redefining \degres on input line 725.
-\mc@charclass=\count90
-\mc@charfam=\count91
-\mc@charslot=\count92
-\std@mcc=\count93
-\dec@mcc=\count94
+\std@mcc=\count89
+\dec@mcc=\count90
 \listindentFB=\skip46
-\descindentFB=\skip47
-\labelwidthFB=\skip48
-\leftmarginFB=\skip49
+\labelwidthFB=\skip47
+\leftmarginFB=\skip48
 \parindentFFN=\dimen105
-\FBfnindent=\skip50
-
-("D:/Programmes/MiKTeX 2.9/tex/generic/hyph-utf8/loadhyph/loadhyph-fr.tex"
-UTF-8 French hyphenation patterns
-("D:/Programmes/MiKTeX 2.9/tex/generic/hyph-utf8/patterns/tex/hyph-fr.tex")
-("D:/Programmes/MiKTeX 2.9/tex/generic/hyph-utf8/patterns/quote/hyph-quote-fr.t
-ex")))) ("D:/Programmes/MiKTeX 2.9/tex/latex/carlisle/scalefnt.sty")
-("D:/Programmes/MiKTeX 2.9/tex/latex/graphics/keyval.sty"
+))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("D:/Programmes/MiKTeX 2.9/tex/latex/base/fontenc.sty"
-Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/base/t1enc.def"
-File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
-
-("D:/Programmes/MiKTeX 2.9/tex/latex/lm/t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-("D:/Programmes/MiKTeX 2.9/tex/latex/base/inputenc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
 
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
 
-) ("D:/Programmes/MiKTeX 2.9/tex/latex/graphics/graphicx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/graphics/graphics.sty"
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/graphics/trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("D:/Programmes/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: luatex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/graphics-def/luatex.def"
-File: luatex.def 2017/01/12 v0.01h Graphics/Color for luaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("D:/Programmes/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("D:/Programmes/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count95
+\Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
-) (./qtree.sty
+)
+(./qtree.sty
 Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
 Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
-("D:/Programmes/MiKTeX 2.9/tex/latex/pict2e/pict2e.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.sty
 Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/pict2e/pict2e.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.cfg
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
-Package pict2e Info: Driver file: luatex.def on input line 119.
-Package pict2e Info: Driver file for pict2e: p2e-luatex.def on input line 121.
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/pict2e/p2e-luatex.def"
-File: p2e-luatex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks18
 \@arclen=\dimen108
 \@arcrad=\dimen109
 \@tempdimd=\dimen110
 )
-\c@treecount=\count96
-\c@branchcount=\count97
+\c@treecount=\count92
+\c@branchcount=\count93
 \parentbox=\box26
 \treebox=\box27
 \treeboxone=\box28
@@ -278,356 +447,1451 @@ File: p2e-luatex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \treeboxeighteen=\box45
 \treeboxnineteen=\box46
 \treeboxtwenty=\box47
-\treeoffsetone=\skip51
-\treeoffsettwo=\skip52
-\treeoffsetthree=\skip53
-\treeoffsetfour=\skip54
-\treeoffsetfive=\skip55
-\treeoffsetsix=\skip56
-\treeoffsetseven=\skip57
-\treeoffseteight=\skip58
-\treeoffsetnine=\skip59
-\treeoffsetten=\skip60
-\treeoffseteleven=\skip61
-\treeoffsettwelve=\skip62
-\treeoffsetthirteen=\skip63
-\treeoffsetfourteen=\skip64
-\treeoffsetfifteen=\skip65
-\treeoffsetsixteen=\skip66
-\treeoffsetseventeen=\skip67
-\treeoffseteighteen=\skip68
-\treeoffsetnineteen=\skip69
-\treeoffsettwenty=\skip70
-\treeshiftone=\skip71
-\treeshifttwo=\skip72
-\treeshiftthree=\skip73
-\treeshiftfour=\skip74
-\treeshiftfive=\skip75
-\treeshiftsix=\skip76
-\treeshiftseven=\skip77
-\treeshifteight=\skip78
-\treeshiftnine=\skip79
-\treeshiftten=\skip80
-\treeshifteleven=\skip81
-\treeshifttwelve=\skip82
-\treeshiftthirteen=\skip83
-\treeshiftfourteen=\skip84
-\treeshiftfifteen=\skip85
-\treeshiftsixteen=\skip86
-\treeshiftseventeen=\skip87
-\treeshifteighteen=\skip88
-\treeshiftnineteen=\skip89
-\treeshifttwenty=\skip90
-\treewidthone=\skip91
-\treewidthtwo=\skip92
-\treewidththree=\skip93
-\treewidthfour=\skip94
-\treewidthfive=\skip95
-\treewidthsix=\skip96
-\treewidthseven=\skip97
-\treewidtheight=\skip98
-\treewidthnine=\skip99
-\treewidthten=\skip100
-\treewidtheleven=\skip101
-\treewidthtwelve=\skip102
-\treewidththirteen=\skip103
-\treewidthfourteen=\skip104
-\treewidthfifteen=\skip105
-\treewidthsixteen=\skip106
-\treewidthseventeen=\skip107
-\treewidtheighteen=\skip108
-\treewidthnineteen=\skip109
-\treewidthtwenty=\skip110
-\daughteroffsetone=\skip111
-\daughteroffsettwo=\skip112
-\daughteroffsetthree=\skip113
-\daughteroffsetfour=\skip114
-\branchwidthone=\skip115
-\branchwidthtwo=\skip116
-\branchwidththree=\skip117
-\branchwidthfour=\skip118
-\parentoffset=\skip119
-\treeoffset=\skip120
-\daughteroffset=\skip121
-\branchwidth=\skip122
-\parentwidth=\skip123
-\treewidth=\skip124
+\treeoffsetone=\skip49
+\treeoffsettwo=\skip50
+\treeoffsetthree=\skip51
+\treeoffsetfour=\skip52
+\treeoffsetfive=\skip53
+\treeoffsetsix=\skip54
+\treeoffsetseven=\skip55
+\treeoffseteight=\skip56
+\treeoffsetnine=\skip57
+\treeoffsetten=\skip58
+\treeoffseteleven=\skip59
+\treeoffsettwelve=\skip60
+\treeoffsetthirteen=\skip61
+\treeoffsetfourteen=\skip62
+\treeoffsetfifteen=\skip63
+\treeoffsetsixteen=\skip64
+\treeoffsetseventeen=\skip65
+\treeoffseteighteen=\skip66
+\treeoffsetnineteen=\skip67
+\treeoffsettwenty=\skip68
+\treeshiftone=\skip69
+\treeshifttwo=\skip70
+\treeshiftthree=\skip71
+\treeshiftfour=\skip72
+\treeshiftfive=\skip73
+\treeshiftsix=\skip74
+\treeshiftseven=\skip75
+\treeshifteight=\skip76
+\treeshiftnine=\skip77
+\treeshiftten=\skip78
+\treeshifteleven=\skip79
+\treeshifttwelve=\skip80
+\treeshiftthirteen=\skip81
+\treeshiftfourteen=\skip82
+\treeshiftfifteen=\skip83
+\treeshiftsixteen=\skip84
+\treeshiftseventeen=\skip85
+\treeshifteighteen=\skip86
+\treeshiftnineteen=\skip87
+\treeshifttwenty=\skip88
+\treewidthone=\skip89
+\treewidthtwo=\skip90
+\treewidththree=\skip91
+\treewidthfour=\skip92
+\treewidthfive=\skip93
+\treewidthsix=\skip94
+\treewidthseven=\skip95
+\treewidtheight=\skip96
+\treewidthnine=\skip97
+\treewidthten=\skip98
+\treewidtheleven=\skip99
+\treewidthtwelve=\skip100
+\treewidththirteen=\skip101
+\treewidthfourteen=\skip102
+\treewidthfifteen=\skip103
+\treewidthsixteen=\skip104
+\treewidthseventeen=\skip105
+\treewidtheighteen=\skip106
+\treewidthnineteen=\skip107
+\treewidthtwenty=\skip108
+\daughteroffsetone=\skip109
+\daughteroffsettwo=\skip110
+\daughteroffsetthree=\skip111
+\daughteroffsetfour=\skip112
+\branchwidthone=\skip113
+\branchwidthtwo=\skip114
+\branchwidththree=\skip115
+\branchwidthfour=\skip116
+\parentoffset=\skip117
+\treeoffset=\skip118
+\daughteroffset=\skip119
+\branchwidth=\skip120
+\parentwidth=\skip121
+\treewidth=\skip122
 \qta=\toks19
 \qtb=\toks20
-\nbranches=\count98
-\qroofx=\count99
-\qroofy=\count100
+\nbranches=\count94
+\qroofx=\count95
+\qroofy=\count96
 \@qrscratchbox=\box48
 )
-("D:/Programmes/MiKTeX 2.9/tex/latex/amsfonts/amssymb.sty"
+! Undefined control sequence.
+l.13 \DeclarePairedDelimiter
+                            \floor{\lfloor}{\rfloor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.13 \DeclarePairedDelimiter\floor
+                                  {\lfloor}{\rfloor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 \DeclarePairedDelimiter\floor{\lfloor
+                                          }{\rfloor}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \DeclarePairedDelimiter\floor{\lfloor
+                                          }{\rfloor}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 13.
+! Extra }, or forgotten $.
+l.13 \DeclarePairedDelimiter\floor{\lfloor}
+                                           {\rfloor}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks21
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.42 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\spacefactor' in vertical mode.
+\@->\spacefactor 
+                 \@m {}
+l.46 \@
+       ifpackageloaded{stix}{%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.46 \@
+       ifpackageloaded{stix}{%
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \@
+       ifpackageloaded{stix}{%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Symbol font `@' is not defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51     \def\ams@Dec
+                     lareMathSymbol#1#2#3#4{%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in math mode.
+l.51     \def\ams@DeclareMathSymbol#
+                                    1#2#3#4{%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.51     \def\ams@DeclareMathSymbol#1#
+                                      2#3#4{%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.51     \def\ams@DeclareMathSymbol#1#2#
+                                        3#4{%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.51     \def\ams@DeclareMathSymbol#1#2#3#
+                                          4{%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.52         \global\let#
+                         1\undefined
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Undefined control sequence.
+l.52         \global\let#1\undefined
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Illegal parameter number in definition of  .
+<to be read again> 
+                   3
+l.53         \DeclareMathSymbol{#1}{#2}{#3}{#4}
+                                               %
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! LaTeX Error: Symbol font `##3' is not defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53         \DeclareMathSymbol{#1}{#2}{#3}{#4}
+                                               %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \@ already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \providecommand*{\@mathmeasure}
+                                    [3]{%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ##
+l.57   \setbox#
+               1\hbox{\frozen@everymath\@emptytoks\m@th$#2#3$}}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! A <box> was supposed to be here.
+<to be read again> 
+                   ##
+l.57   \setbox#
+               1\hbox{\frozen@everymath\@emptytoks\m@th$#2#3$}}
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.57   \setbox#
+               1\hbox{\frozen@everymath\@emptytoks\m@th$#2#3$}}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+l.57   \setbox#1\hbox{\frozen
+                             @everymath\@emptytoks\m@th$#2#3$}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.57 ...tbox#1\hbox{\frozen@everymath\@emptytoks\m
+                                                  @th$#2#3$}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.57 ...1\hbox{\frozen@everymath\@emptytoks\m@th$#
+                                                  2#3$}}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.57 ...hbox{\frozen@everymath\@emptytoks\m@th$#2#
+                                                  3$}}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\@->\spacefactor 
+                 \@m {}
+l.58 \@
+       ifundefined{@emptytoks}{\csname newtoks\endcsname\@emptytoks}{}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+\@=\toks21
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-("D:/Programmes/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip125
+! Missing { inserted.
+<to be read again> 
+                   i
+l.61 \@i
+        fundefined{yen}{%
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-For additional information on amsmath, use the `?' option.
-("D:/Programmes/MiKTeX 2.9/tex/latex/amsmath/amstext.sty"
-Package: amstext 2000/06/29 v2.01 AMS text
+)
+Runaway text?
+ifundefined{yen}{\edef \yen {\noexpand \mathhexbox {\hexnumber @\symAMSa \ETC.
+! File ended while scanning text of \@.
+<inserted text> 
+                }
+l.34 \RequirePackage{amsfonts}[1995/01/01]
+                                          
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty"
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen111
-))
-("D:/Programmes/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen112
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip123
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.76 \ProcessOptions\par
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (318.98671pt too wide) in paragraph at lines 46--76
+[]$[]\OML/cmm/m/it/10 ifpackageloaded[][][]athmeasure\OT1/cmr/m/n/10 [3][][]\OM
+L/cmm/m/it/10 ifundefined[][][]$ 
+ []
+
+! Missing { inserted.
+<to be read again> 
+                   i
+l.77 \@i
+        fpackagewith{amsmath}{?}{%
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
 )
-("D:/Programmes/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty"
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count101
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count102
-\leftroot@=\count103
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count104
-\DOTSCASE@=\count105
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box49
-\strutbox@=\box50
-\big@size=\dimen113
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count106
-\c@MaxMatrixCols=\count107
-\dotsspace@=\muskip10
-\c@parentequation=\count108
-\dspbrk@lvl=\count109
-\tag@help=\toks23
-\row@=\count110
-\column@=\count111
-\maxfields@=\count112
-\andhelp@=\toks24
-\eqnshift@=\dimen114
-\alignsep@=\dimen115
-\tagshift@=\dimen116
-\tagwidth@=\dimen117
-\totwidth@=\dimen118
-\lineht@=\dimen119
-\@envbody=\toks25
-\multlinegap=\skip126
-\multlinetaggap=\skip127
-\mathdisplay@stack=\toks26
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-("D:/Programmes/MiKTeX 2.9/tex/latex/setspace/setspace.sty"
+Runaway text?
+ifpackagewith{amsmath}{?}{\typeout {
+Documentation for the amsmath pac\ETC.
+! File ended while scanning text of \@.
+<inserted text> 
+                }
+l.16 \usepackage
+                {amsfonts}
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (./Rapport.aux)
-\openout1 = Rapport.aux
+\openout1 = `Rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Info: Redefining \dots on input line 47.
-LaTeX Info: Redefining \up on input line 47.
-Inserting `frenchb.french_punctuation' at position 1 in `kerning'.
-
-Package frenchb.ldf Warning: Add \usepackage{fontspec} to the
-(frenchb.ldf)                preamble of your document, reported on input line 4
-7.
-
-("D:/Programmes/MiKTeX 2.9/tex/context/base/supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Info: Redefining \degres on input line 48.
+LaTeX Info: Redefining \dots on input line 48.
+LaTeX Info: Redefining \up on input line 48.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen120
-\scratchbox=\box51
-\nofMPsegments=\count114
-\nofMParguments=\count115
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen121
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks28
-) ("D:/Programmes/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("D:/Programmes/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("D:/Programmes/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("D:/Programmes/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("D:/Programmes/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("D:/Programmes/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("D:/Programmes/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX detected.
-))))
-("D:/Programmes/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
-
-
-("D:/Programmes/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+\scratchcounter=\count97
+\scratchdimen=\dimen111
+\scratchbox=\box49
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen112
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks29
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
-8.
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
-,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1
 
-("D:/Programmes/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-Package amsmath Warning: Foreign command \atopwithdelims;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 56.
-
-<Q1.jpg, id=1, 4818.0pt x 3613.5pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<Q1.jpg, id=10, 4818.0pt x 3613.5pt>
 File: Q1.jpg Graphic file (type jpg)
  <use Q1.jpg>
-Package luatex.def Info: Q1.jpg used on input line 71.
-(luatex.def)             Requested size: 345.0pt x 258.70514pt.
- [1
+Package pdftex.def Info: Q1.jpg used on input line 72.
+(pdftex.def)             Requested size: 345.0pt x 258.70514pt.
+ [2 <./Q1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
-{C:/Users/Quentin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./Q1.jpg>]
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+! Undefined control sequence.
+l.83 = a \operatorname
+                      {log_2}(\frac{a}{b}) + (1-a) \operatorname{log_2}(\fra...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.83 ...{log_2}(\frac{a}{b}) + (1-a) \operatorname
+                                                  {log_2}(\frac{1-a}{1-b})
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 \begin{align*}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.104 \sum
+          _{x \in E} \operatorname{p}(x) \left(
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.104 \sum_{x \in E} \operatorname
+                                  {p}(x) \left(
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.105 	- \operatorname
+                      {log_2}\frac{q(x)}{p(x)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.106 	\right) &
+                \geq
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.108 &
+       \geq -\operatorname{log_2} \sum_{x \in E}q(x) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.108 &\geq -\operatorname
+                          {log_2} \sum_{x \in E}q(x) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.109 &
+       \geq 0 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{Q} on input line 101 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+! LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 \begin{align*}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \mathcal allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \H
+        (X,Y) &= - \sum_{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Misplaced alignment tab character &.
+l.124 \H(X,Y) &
+               = - \sum_{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.124 \H(X,Y) &= - \sum
+                       _{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.125 	&
+        = -\sum_{x \in E} \sum_{y \in E} p_X(x) p_{Y|X = x}(y) \log_2{p_X(x)}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.127 	&
+        = \H(X) + \sum_{x \in E} p_X(x)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{Q} on input line 122 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+! LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138 \begin{align*}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \mathcal allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 \I
+        (X,Y) &= \sum_{(X,Y) \in E²} p_{X,Y}(x,y)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Misplaced alignment tab character &.
+l.139 \I(X,Y) &
+               = \sum_{(X,Y) \in E²} p_{X,Y}(x,y)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.139 \I(X,Y) &= \sum
+                     _{(X,Y) \in E²} p_{X,Y}(x,y)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! Package inputenc Error: Unicode char ² (U+B2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 \I(X,Y) &= \sum_{(X,Y) \in E²
+                                    } p_{X,Y}(x,y)
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.141 	&
+        = \sum_{(X,Y) \in E²}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! Package inputenc Error: Unicode char ² (U+B2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 	&= \sum_{(X,Y) \in E²
+                             }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.142 		\operatorname
+                     {p_X}(x) p_{Y|X=x}(y) \log_2{(p_{Y|X=x}(y))}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode char ² (U+B2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143  		- \sum_{(X,Y) \in E²
+                              }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.145 	&
+        = \H(Y) - \H(Y|X) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.146 	&
+        = \H(X) - \H(X|Y) \text{\quad par symétrie des rôles de X et Y)} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.146 	&= \H(X) - \H(X|Y) \text
+                               {\quad par symétrie des rôles de X et Y)} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 146.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.147 	&
+        = \H(Y) - \left(\H(X,Y) - \H(X)\right) \text{\quad cf. (Q4a)} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.147 ...H(Y) - \left(\H(X,Y) - \H(X)\right) \text
+                                                  {\quad cf. (Q4a)} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.148 	&
+        = \H(X) + \H(Y) - \H(X,Y)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{Q} on input line 136 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.149 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+
+Overfull \hbox (34.30594pt too wide) in paragraph at lines 139--151
+\OT1/cmr/m/n/10 = [][] [](\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 p
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) [][] [] \OMS/cmsy/m/n/10
+ ^^@ [][] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/1
+0 )\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) [][
+] [][] 
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Underfull \vbox (badness 1142) has occurred while \output is active []
-
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-Missing character: There is no ² (U+00B2) in font cmr7!
-Missing character: There is no ² (U+00B2) in font cmr7!
-Missing character: There is no ² (U+00B2) in font cmr7!
-Missing character: There is no ² (U+00B2) in font cmr7!
-Missing character: There is no ² (U+00B2) in font cmr7!
-Missing character: There is no ² (U+00B2) in font cmr7!
-
-Overfull \hbox (53.68907pt too wide) in paragraph at lines 148--148
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+! LaTeX Error: Command \leadsto not provided in base LaTeX2e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 ...ut appliquer ce principe pour $X \leadsto
+                                                   \B(\frac{1}{3})$
+Load the latexsym or the amsfonts package to define this symbol
+
+! Undefined control sequence.
+<recently read> \mathbb 
+                        
+l.172 Alors $\mathbb
+                    {P}(X = x_0) = \frac{2}{3} = \mathbb{P}(a < \frac{2}{3})...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.172 ...athbb{P}(X = x_0) = \frac{2}{3} = \mathbb
+                                                  {P}(a < \frac{2}{3})$ et
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+                        
+l.173 $\mathbb
+              {P}(X = x_1) = \frac{1}{3} = \mathbb{P}(a > \frac{2}{3})$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.173 $\mathbb{P}(X = x_1) = \frac{1}{3} = \mathbb
+                                                  {P}(a > \frac{2}{3})$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+! LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.195 \begin{align*}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \mathcal allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 \D
+        (p_X||q) &= \sum_{x \in E}p_X(x)log_2(\frac{p_X(x)}{\frac{1}{c}d^{-l...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+ [4]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.196 \D(p_
+           X||q) &= \sum_{x \in E}p_X(x)log_2(\frac{p_X(x)}{\frac{1}{c}d^{-l...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.196 \D(p_X||q) &
+                  = \sum_{x \in E}p_X(x)log_2(\frac{p_X(x)}{\frac{1}{c}d^{-l...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.197 &
+       \geq 0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{Q} on input line 193 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.198 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \begin{align*}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.202 \sum
+          _{x \in E}p_X(x)log_2(p_X(x)) &\geq  -\sum_{x \in E}p_X(x)l(x)log_...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.202 \sum_{x \in E}p_X(x)log_2(p_X(x)) &
+                                         \geq  -\sum_{x \in E}p_X(x)l(x)log_...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.203  &
+        \iff\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.204 -\H(X) &
+              \geq -log_2(d) \mathbb{E}(X) + log_2(\frac{1}{c})
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.204 -\H(X) &\geq -log_2(d) \mathbb
+                                    {E}(X) + log_2(\frac{1}{c})
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.205 \\ &
+          \geq -log_2(d) \mathbb{E}(X) \texttt{\quad(car} \leq 1 \textsc{)}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.205 \\ &\geq -log_2(d) \mathbb
+                                {E}(X) \texttt{\quad(car} \leq 1 \textsc{)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 205.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+
+! LaTeX Error: \begin{Q} on input line 193 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.206 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (22.79091pt too wide) in paragraph at lines 200--207
+[]\T1/cmr/m/n/10 Alors  $[][] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 log[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^U ^
+^@ [][] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 
+)\OML/cmm/m/it/10 l\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm
+/m/it/10 log[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 ) + [][] \OML/
+cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/i
+t/10 log[]\OT1/cmr/m/n/10 ([])[] 
+ []
+
+! Undefined control sequence.
+l.208 D'où $\frac{\H(x)}{log_2(d)} \leq \mathbb
+                                                {E}[l(X)]$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+                        
+l.229 ...n puissance étant bijective sur $\mathbb
+                                                  {R^+}$, on a :
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 \begin{align*}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.248 \mathbb
+             {E}[\overline{l_0}(X)] &= \sum_{x \in E} \overline{l_0}(X) \mat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.248 \mathbb{E}[\overline
+                          {l_0}(X)] &= \sum_{x \in E} \overline{l_0}(X) \mat...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.248 \mathbb{E}[\overline{l_0}(X)] &
+                                     = \sum_{x \in E} \overline{l_0}(X) \mat...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.248 ... \sum_{x \in E} \overline{l_0}(X) \mathbb
+                                                  {P}(X=x)\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.249 &
+       < \sum_{x \in E} l_0(X)\mathbb{P}(X=x) + \sum_{x \in E}\mathbb{P}(X=x)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.249 &< \sum_{x \in E} l_0(X)\mathbb
+                                     {P}(X=x) + \sum_{x \in E}\mathbb{P}(X=x)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.249 ...X)\mathbb{P}(X=x) + \sum_{x \in E}\mathbb
+                                                  {P}(X=x)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{Q} on input line 228 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.250 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[5]
+! Undefined control sequence.
+l.253 \frac{\H(X)}{\log_2(d)} = \mathbb
+                                       {E}[l(X)] \text{\quad puisque } \D(p_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.253 ...H(X)}{\log_2(d)} = \mathbb{E}[l(X)] \text
+                                                  {\quad puisque } \D(p_X||p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.257 \mathbb
+             {E}[\overline{l_0}(X)] < \frac{\H(X)}{\log_2(d)} + 1
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[6]
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
+! Undefined control sequence.
+<recently read> \floor 
+                       
+l.393 on passe à 3 bits. ($\floor
+                                  {\mathbb{E}(l(X))}$).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+! Undefined control sequence.
+l.393 on passe à 3 bits. ($\floor{\mathbb
+                                          {E}(l(X))}$).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- []
+[8] (./Rapport.aux) )
+(\end occurred inside a group at level 1)
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 205.
-("D:/Programmes/MiKTeX 2.9/tex/latex/lm/t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
-
- []
-
-[7] (./Rapport.aux))
-
-Here is how much of LuaTeX's memory you used:
- 4461 strings out of 494553
- 100000,154059 words of node,token memory allocated
- 5382 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 508 glue, 1 kern, 1 penalty, 562 attribute, 51 glue
-_spec, 142 attribute_list, 1 write nodes
-   avail lists: 2:2435,3:226,4:6,5:207,6:948,7:1116,8:141,9:725,10:5,11:48
- 8228 multiletter control sequences out of 65536+200000
- 67 fonts using 4272311 bytes
- 38i,10n,30p,258b,1312s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Programmes/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<D:/Programmes/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi5.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7
-.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Prog
-rammes/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Programmes/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Programmes/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><D
-:/Programmes/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><D:/Programmes/MiKTeX 2
-.9/fonts/type1/public/lm/lmcsc10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmr10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><D:/Pro
-grammes/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><D:/Programmes/MiKTeX 2.9/fon
-ts/type1/public/lm/lmr8.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/lm/lmtt
-10.pfb><D:/Programmes/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-<D:/Programmes/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Rapport.pdf (7 pages, 863697 bytes).
-
-PDF statistics: 102 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+### simple group (level 1) entered at line 13 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 4049 strings out of 493029
+ 51291 string characters out of 6136235
+ 156682 words of memory out of 5000000
+ 7516 multiletter control sequences out of 15000+600000
+ 14190 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,7n,30p,245b,1307s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on Rapport.pdf (8 pages, 812792 bytes).
+PDF statistics:
+ 109 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
