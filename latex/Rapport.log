@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.3)  1 JUL 2017 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.3)  1 JUL 2017 17:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -528,379 +528,108 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \qroofy=\count96
 \@qrscratchbox=\box48
 )
-! Undefined control sequence.
-l.13 \DeclarePairedDelimiter
-                            \floor{\lfloor}{\rfloor}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.13 \DeclarePairedDelimiter\floor
-                                  {\lfloor}{\rfloor}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.13 \DeclarePairedDelimiter\floor{\lfloor
-                                          }{\rfloor}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \DeclarePairedDelimiter\floor{\lfloor
-                                          }{\rfloor}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 13.
-! Extra }, or forgotten $.
-l.13 \DeclarePairedDelimiter\floor{\lfloor}
-                                           {\rfloor}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.42 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\spacefactor' in vertical mode.
-\@->\spacefactor 
-                 \@m {}
-l.46 \@
-       ifpackageloaded{stix}{%
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.46 \@
-       ifpackageloaded{stix}{%
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 \@
-       ifpackageloaded{stix}{%
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Symbol font `@' is not defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51     \def\ams@Dec
-                     lareMathSymbol#1#2#3#4{%
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! You can't use `macro parameter character #' in math mode.
-l.51     \def\ams@DeclareMathSymbol#
-                                    1#2#3#4{%
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.51     \def\ams@DeclareMathSymbol#1#
-                                      2#3#4{%
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.51     \def\ams@DeclareMathSymbol#1#2#
-                                        3#4{%
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.51     \def\ams@DeclareMathSymbol#1#2#3#
-                                          4{%
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.52         \global\let#
-                         1\undefined
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-! Undefined control sequence.
-l.52         \global\let#1\undefined
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! Illegal parameter number in definition of  .
-<to be read again> 
-                   3
-l.53         \DeclareMathSymbol{#1}{#2}{#3}{#4}
-                                               %
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! LaTeX Error: Symbol font `##3' is not defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53         \DeclareMathSymbol{#1}{#2}{#3}{#4}
-                                               %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \@ already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \providecommand*{\@mathmeasure}
-                                    [3]{%
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.57   \setbox#
-               1\hbox{\frozen@everymath\@emptytoks\m@th$#2#3$}}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! A <box> was supposed to be here.
-<to be read again> 
-                   ##
-l.57   \setbox#
-               1\hbox{\frozen@everymath\@emptytoks\m@th$#2#3$}}
-I was expecting to see \hbox or \vbox or \copy or \box or
-something like that. So you might find something missing in
-your output. But keep trying; you can fix this later.
-
-! You can't use `macro parameter character #' in math mode.
-<recently read> ##
-                  
-l.57   \setbox#
-               1\hbox{\frozen@everymath\@emptytoks\m@th$#2#3$}}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Undefined control sequence.
-l.57   \setbox#1\hbox{\frozen
-                             @everymath\@emptytoks\m@th$#2#3$}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.57 ...tbox#1\hbox{\frozen@everymath\@emptytoks\m
-                                                  @th$#2#3$}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `macro parameter character #' in math mode.
-<recently read> ##
-                  
-l.57 ...1\hbox{\frozen@everymath\@emptytoks\m@th$#
-                                                  2#3$}}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in math mode.
-l.57 ...hbox{\frozen@everymath\@emptytoks\m@th$#2#
-                                                  3$}}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-\@->\spacefactor 
-                 \@m {}
-l.58 \@
-       ifundefined{@emptytoks}{\csname newtoks\endcsname\@emptytoks}{}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-\@=\toks21
+\@emptytoks=\toks21
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
-! Missing { inserted.
-<to be read again> 
-                   i
-l.61 \@i
-        fundefined{yen}{%
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-)
-Runaway text?
-ifundefined{yen}{\edef \yen {\noexpand \mathhexbox {\hexnumber @\symAMSa \ETC.
-! File ended while scanning text of \@.
-<inserted text> 
-                }
-l.34 \RequirePackage{amsfonts}[1995/01/01]
-                                          
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip123
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.76 \ProcessOptions\par
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-Missing character: There is no � in font cmex10!
-Missing character: There is no � in font cmex10!
-
-Overfull \hbox (318.98671pt too wide) in paragraph at lines 46--76
-[]$[]\OML/cmm/m/it/10 ifpackageloaded[][][]athmeasure\OT1/cmr/m/n/10 [3][][]\OM
-L/cmm/m/it/10 ifundefined[][][]$ 
- []
-
-! Missing { inserted.
-<to be read again> 
-                   i
-l.77 \@i
-        fpackagewith{amsmath}{?}{%
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen111
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen112
 )
-Runaway text?
-ifpackagewith{amsmath}{?}{\typeout {
-Documentation for the amsmath pac\ETC.
-! File ended while scanning text of \@.
-<inserted text> 
-                }
-l.16 \usepackage
-                {amsfonts}
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks23
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks24
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks25
+\multlinegap=\skip124
+\multlinetaggap=\skip125
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (./Rapport.aux)
 \openout1 = `Rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Info: Redefining \degres on input line 48.
-LaTeX Info: Redefining \dots on input line 48.
-LaTeX Info: Redefining \up on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Info: Redefining \degres on input line 47.
+LaTeX Info: Redefining \dots on input line 47.
+LaTeX Info: Redefining \up on input line 47.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen111
-\scratchbox=\box49
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen112
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count109
+\scratchdimen=\dimen120
+\scratchbox=\box51
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen121
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -949,286 +678,50 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-[1
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Q1.jpg, id=10, 4818.0pt x 3613.5pt>
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 56.
+
+<Q1.jpg, id=1, 4818.0pt x 3613.5pt>
 File: Q1.jpg Graphic file (type jpg)
  <use Q1.jpg>
-Package pdftex.def Info: Q1.jpg used on input line 72.
+Package pdftex.def Info: Q1.jpg used on input line 71.
 (pdftex.def)             Requested size: 345.0pt x 258.70514pt.
- [2 <./Q1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+ [1
 
- []
-
-! Undefined control sequence.
-l.83 = a \operatorname
-                      {log_2}(\frac{a}{b}) + (1-a) \operatorname{log_2}(\fra...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.83 ...{log_2}(\frac{a}{b}) + (1-a) \operatorname
-                                                  {log_2}(\frac{1-a}{1-b})
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Environment align* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 \begin{align*}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.104 \sum
-          _{x \in E} \operatorname{p}(x) \left(
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Undefined control sequence.
-l.104 \sum_{x \in E} \operatorname
-                                  {p}(x) \left(
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.105 	- \operatorname
-                      {log_2}\frac{q(x)}{p(x)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-l.106 	\right) &
-                \geq
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.108 &
-       \geq -\operatorname{log_2} \sum_{x \in E}q(x) \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.108 &\geq -\operatorname
-                          {log_2} \sum_{x \in E}q(x) \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.109 &
-       \geq 0 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! LaTeX Error: \begin{Q} on input line 101 ended by \end{align*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 \end{align*}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110 \end{align*}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Q1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-! LaTeX Error: Environment align* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 \begin{align*}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \mathcal allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 \H
-        (X,Y) &= - \sum_{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Misplaced alignment tab character &.
-l.124 \H(X,Y) &
-               = - \sum_{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.124 \H(X,Y) &= - \sum
-                       _{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.125 	&
-        = -\sum_{x \in E} \sum_{y \in E} p_X(x) p_{Y|X = x}(y) \log_2{p_X(x)}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.127 	&
-        = \H(X) + \sum_{x \in E} p_X(x)
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! LaTeX Error: \begin{Q} on input line 122 ended by \end{align*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.132 \end{align*}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.132 \end{align*}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-! LaTeX Error: Environment align* undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 \begin{align*}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 
-! LaTeX Error: \mathcal allowed only in math mode.
+Underfull \vbox (badness 1142) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.139 \I
-        (X,Y) &= \sum_{(X,Y) \in E²} p_{X,Y}(x,y)
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
-! Misplaced alignment tab character &.
-l.139 \I(X,Y) &
-               = \sum_{(X,Y) \in E²} p_{X,Y}(x,y)
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.139 \I(X,Y) &= \sum
-                     _{(X,Y) \in E²} p_{X,Y}(x,y)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+ []
 
 
 ! Package inputenc Error: Unicode char ² (U+B2)
@@ -1238,23 +731,11 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.139 \I(X,Y) &= \sum_{(X,Y) \in E²
-                                    } p_{X,Y}(x,y)
+l.148 \end{align*}
+                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.141 	&
-        = \sum_{(X,Y) \in E²}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
 
 ! Package inputenc Error: Unicode char ² (U+B2)
@@ -1264,20 +745,11 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 	&= \sum_{(X,Y) \in E²
-                             }
+l.148 \end{align*}
+                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.142 		\operatorname
-                     {p_X}(x) p_{Y|X=x}(y) \log_2{(p_{Y|X=x}(y))}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 ! Package inputenc Error: Unicode char ² (U+B2)
@@ -1287,611 +759,133 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143  		- \sum_{(X,Y) \in E²
-                              }
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.145 	&
-        = \H(Y) - \H(Y|X) \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.146 	&
-        = \H(X) - \H(X|Y) \text{\quad par symétrie des rôles de X et Y)} \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.146 	&= \H(X) - \H(X|Y) \text
-                               {\quad par symétrie des rôles de X et Y)} \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 146.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 146.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.147 	&
-        = \H(Y) - \left(\H(X,Y) - \H(X)\right) \text{\quad cf. (Q4a)} \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.147 ...H(Y) - \left(\H(X,Y) - \H(X)\right) \text
-                                                  {\quad cf. (Q4a)} \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.148 	&
-        = \H(X) + \H(Y) - \H(X,Y)
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! LaTeX Error: \begin{Q} on input line 136 ended by \end{align*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 \end{align*}
+l.148 \end{align*}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.149 \end{align*}
+
+! Package inputenc Error: Unicode char ² (U+B2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 \end{align*}
                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font cmr10!
-Missing character: There is no � in font cmr10!
-
-Overfull \hbox (34.30594pt too wide) in paragraph at lines 139--151
-\OT1/cmr/m/n/10 = [][] [](\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 p
-[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) [][] [] \OMS/cmsy/m/n/10
- ^^@ [][] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/1
-0 )\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) [][
-] [][] 
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-
-! LaTeX Error: Command \leadsto not provided in base LaTeX2e.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 ...ut appliquer ce principe pour $X \leadsto
-                                                   \B(\frac{1}{3})$
-Load the latexsym or the amsfonts package to define this symbol
-
-! Undefined control sequence.
-<recently read> \mathbb 
-                        
-l.172 Alors $\mathbb
-                    {P}(X = x_0) = \frac{2}{3} = \mathbb{P}(a < \frac{2}{3})...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.172 ...athbb{P}(X = x_0) = \frac{2}{3} = \mathbb
-                                                  {P}(a < \frac{2}{3})$ et
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \mathbb 
-                        
-l.173 $\mathbb
-              {P}(X = x_1) = \frac{1}{3} = \mathbb{P}(a > \frac{2}{3})$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.173 $\mathbb{P}(X = x_1) = \frac{1}{3} = \mathbb
-                                                  {P}(a > \frac{2}{3})$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-
- []
-
-
-! LaTeX Error: Environment align* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.195 \begin{align*}
-                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \mathcal allowed only in math mode.
+! Package inputenc Error: Unicode char ² (U+B2)
+(inputenc)                not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 \D
-        (p_X||q) &= \sum_{x \in E}p_X(x)log_2(\frac{p_X(x)}{\frac{1}{c}d^{-l...
+l.148 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
+! Package inputenc Error: Unicode char ² (U+B2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (53.68907pt too wide) in paragraph at lines 148--148
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \vbox (badness 7576) has occurred while \output is active []
+
+ [3]
+<Q6b.png, id=28, 578.16pt x 433.62pt>
+File: Q6b.png Graphic file (type png)
+ <use Q6b.png>
+Package pdftex.def Info: Q6b.png used on input line 191.
+(pdftex.def)             Requested size: 345.0pt x 258.74484pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.196 \D(p_
-           X||q) &= \sum_{x \in E}p_X(x)log_2(\frac{p_X(x)}{\frac{1}{c}d^{-l...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
-! Misplaced alignment tab character &.
-l.196 \D(p_X||q) &
-                  = \sum_{x \in E}p_X(x)log_2(\frac{p_X(x)}{\frac{1}{c}d^{-l...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+ []
 
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.197 &
-       \geq 0
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! LaTeX Error: \begin{Q} on input line 193 ended by \end{align*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 \end{align*}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.198 \end{align*}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: Environment align* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.201 \begin{align*}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.202 \sum
-          _{x \in E}p_X(x)log_2(p_X(x)) &\geq  -\sum_{x \in E}p_X(x)l(x)log_...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Misplaced alignment tab character &.
-l.202 \sum_{x \in E}p_X(x)log_2(p_X(x)) &
-                                         \geq  -\sum_{x \in E}p_X(x)l(x)log_...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.203  &
-        \iff\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.204 -\H(X) &
-              \geq -log_2(d) \mathbb{E}(X) + log_2(\frac{1}{c})
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.204 -\H(X) &\geq -log_2(d) \mathbb
-                                    {E}(X) + log_2(\frac{1}{c})
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.205 \\ &
-          \geq -log_2(d) \mathbb{E}(X) \texttt{\quad(car} \leq 1 \textsc{)}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.205 \\ &\geq -log_2(d) \mathbb
-                                {E}(X) \texttt{\quad(car} \leq 1 \textsc{)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 205.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 216.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+Underfull \vbox (badness 2680) has occurred while \output is active []
 
-! LaTeX Error: \begin{Q} on input line 193 ended by \end{align*}.
+ [5 <./Q6b.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.206 \end{align*}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.206 \end{align*}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (22.79091pt too wide) in paragraph at lines 200--207
-[]\T1/cmr/m/n/10 Alors  $[][] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/i
-t/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 log[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^U ^
-^@ [][] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 
-)\OML/cmm/m/it/10 l\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm
-/m/it/10 log[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 ) + [][] \OML/
-cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/i
-t/10 log[]\OT1/cmr/m/n/10 ([])[] 
- []
-
-! Undefined control sequence.
-l.208 D'où $\frac{\H(x)}{log_2(d)} \leq \mathbb
-                                                {E}[l(X)]$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \mathbb 
-                        
-l.229 ...n puissance étant bijective sur $\mathbb
-                                                  {R^+}$, on a :
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Environment align* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.247 \begin{align*}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.248 \mathbb
-             {E}[\overline{l_0}(X)] &= \sum_{x \in E} \overline{l_0}(X) \mat...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.248 \mathbb{E}[\overline
-                          {l_0}(X)] &= \sum_{x \in E} \overline{l_0}(X) \mat...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Misplaced alignment tab character &.
-l.248 \mathbb{E}[\overline{l_0}(X)] &
-                                     = \sum_{x \in E} \overline{l_0}(X) \mat...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.248 ... \sum_{x \in E} \overline{l_0}(X) \mathbb
-                                                  {P}(X=x)\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.249 &
-       < \sum_{x \in E} l_0(X)\mathbb{P}(X=x) + \sum_{x \in E}\mathbb{P}(X=x)
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.249 &< \sum_{x \in E} l_0(X)\mathbb
-                                     {P}(X=x) + \sum_{x \in E}\mathbb{P}(X=x)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.249 ...X)\mathbb{P}(X=x) + \sum_{x \in E}\mathbb
-                                                  {P}(X=x)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{Q} on input line 228 ended by \end{align*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 \end{align*}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.250 \end{align*}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[5]
-! Undefined control sequence.
-l.253 \frac{\H(X)}{\log_2(d)} = \mathbb
-                                       {E}[l(X)] \text{\quad puisque } \D(p_...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.253 ...H(X)}{\log_2(d)} = \mathbb{E}[l(X)] \text
-                                                  {\quad puisque } \D(p_X||p...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.257 \mathbb
-             {E}[\overline{l_0}(X)] < \frac{\H(X)}{\log_2(d)} + 1
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[6]
-Underfull \vbox (badness 1014) has occurred while \output is active []
-
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+ [6]
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
-! Undefined control sequence.
-<recently read> \floor 
-                       
-l.393 on passe à 3 bits. ($\floor
-                                  {\mathbb{E}(l(X))}$).
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.393 on passe à 3 bits. ($\floor{\mathbb
-                                          {E}(l(X))}$).
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[8] (./Rapport.aux) )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 13 ({)
-### bottom level 
+[9] (./Rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 4049 strings out of 493029
- 51291 string characters out of 6136235
- 156682 words of memory out of 5000000
- 7516 multiletter control sequences out of 15000+600000
- 14190 words of font info for 36 fonts, out of 8000000 for 9000
+ 4381 strings out of 493029
+ 56193 string characters out of 6136235
+ 140838 words of memory out of 5000000
+ 7817 multiletter control sequences out of 15000+600000
+ 20636 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,30p,245b,1307s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Rapport.pdf (8 pages, 812792 bytes).
+ 38i,10n,30p,245b,1234s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
+}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on Rapport.pdf (9 pages, 830378 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

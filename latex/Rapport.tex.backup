@@ -41,7 +41,7 @@
 }
 
 \title{Entropie et codage de source}
-\author{Alice Andrès, Quentin SOubeyran}
+\author{Alice Andrès, Quentin Soubeyran}
 
 \begin{onehalfspacing}
 \begin{document}
@@ -120,7 +120,7 @@ Avec égalité si et seulement si $p_{(X,Y)} = p_X \otimes p_Y$ soit $X$ et $Y$ 
 
 \begin{Q}{4a}
 \begin{align*}
-\H(X,Y) &= - \sum_{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
+\\H(X,Y) &= - \sum_{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
 	&= -\sum_{x \in E} \sum_{y \in E} p_X(x) p_{Y|X = x}(y) \log_2{p_X(x)}
 		+ \log_2{p_{Y|X= x}(y)} \\
 	&= \H(X) + \sum_{x \in E} p_X(x)
@@ -135,7 +135,7 @@ Et l'on a montré l'égalité.
 \begin{Q}{4b}
 
 \begin{align*}
-\I(X,Y) &= \sum_{(X,Y) \in E²} p_{X,Y}(x,y)
+ \I(X,Y) &= \sum_{(X,Y) \in E²} p_{X,Y}(x,y)
 				\log_2{\frac{p_{X,Y}{(x,y)}}{p_X(x)p_Y(y)}} \\
 	&= \sum_{(X,Y) \in E²}
 		\operatorname{p_X}(x) p_{Y|X=x}(y) \log_2{(p_{Y|X=x}(y))} 
@@ -177,13 +177,22 @@ Voir le code dans le fichier Q5.py.
 \end{Q}
 
 \begin{Q}{6a}
-
+Voir le code dans le fichier Q6.py.
 \end{Q}
 
 \begin{Q}{6b}
+Voir le code dans le fichier Q6.py.
+
+On observe, encore un fois, un convergence de $\frac{1}{k} \sum_{i = 1}^{k} \H(X|Y = y_i)$ vers $\H(X|Y) = 1,25$.
+
+\begin{center}
+\includegraphics[width=\textwidth]{Q6b.png}
+\end{center}
+
 \end{Q}
 
 \begin{Q}{6c}
+On obtient \[\H(X|Y = 0) = 0 \text{ et } \H(X|Y = 1) = 1 > \H(X) \approx 0.6685644432 \]
 \end{Q}
 
 \section{Application au codage de source}
@@ -362,6 +371,7 @@ a & b & c & d & e & f \\
 \end{Q}
 
 \begin{Q}{9b}
+Voir le fichier Python Q9.py
 \end{Q}
 
 \begin{Q}{9c}
@@ -372,13 +382,23 @@ Le code est disponible dans le fichier Q9.py.
 On constate que le langage de Huffman correspond bien à un langage décrit par le Théorème de Schannon, puisqu'il vérifie
 la double inégalité (iii)
 
-En effet, on obtient pourun proba uniforme : 3.4585110748 0.322723181409 < 4.4585110748
-Et pour la répartition des lettres de la langue française : 2.77115542449 0.257431277238 < 3.77115542449
+En effet, on obtient pourun proba uniforme : 
+\[ 3.4585110748 \leq 3.54475447545 < 4.4585110748 \]
+Et pour la répartition des lettres de la langue française : 
+\[ 2.77115542449 \leq 2.83174404962 < 3.77115542449 \]
 \end{Q}
 
 \begin{Q}{9e}
 
-%\inputminted[linenos=true, fontsize=\small]{python}{Q9.py}
+Les moyennes obtenues sont de l'ordre de 3, soit très intéressantes par rapport à 8 bit ; surtout lorsque la 
+répartition des caractères n'est pas uniforme.
+
+Mais l'alphabet considéré est restreint par rapport à ce que les 8 bits peuvent coder. Il est donc plus pertinent de comparer au nombre
+minimal de bits pour coder 11 caractères, qui est de $log_2(11) \approx 3,45$.
+
+On a donc besoin de 4 bits au minimum pour coder ces 11 caractères ; cela est aussi nécessaire avec le codage de Huffman lorsque la 
+répartition est uniforme. On gagne cependant un bit lorsques les fréquences sont disparates : 
+on passe à 3 bits. ($\lceil \mathbb{E}(l(X)) \rceil $).
 
 \end{Q}
 

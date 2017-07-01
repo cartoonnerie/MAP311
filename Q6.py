@@ -15,37 +15,56 @@ def Hx(P):
 
 #Entropie de X
 H = Hx(Px)
+print("H(X) = ", H)
 
 
 #loi de Y|X sous forme de tableau Pxy[0] = P_Y|(X = x0)
 Pxy = np.array([[1., 0.], [0., 1.],[0., 1.]])
+#loi de X|Y sous forme de tableau Pxy[0] = P_X|(Y = y0)
+Pyx = np.array([[1., 0., 0.], [0., 0.5, 0.5]])
+
+#Py
+Py = [14./16, 2./16]
 
 #entropie de X|Y
 def Hxy(Px, P): #len(Px) = len(P)
     n = len(P)
     return sum([Px[i] * Hx(P[i]) for i in range(n)])
 
-limit = Hxy(Px, Pxy)
+limit = Hxy(Py, Pyx)
+print("H(X|Y) = ", limit)
 
 #Q6b 
 
-#k = 5000
-#X = np.random.choice(['a', 'b', 'c'], k, p=Px)
-#Y = np.zeros(X.shape, dtype ='int32')
-#Y[X != 'a'] = 1
-#I = np.zeros((k, 3))
-#for i in range(k) :
-#    I[i] = Pxy[:, Y[i]] * Px / np.sum(Px * Pxy[:, Y[i]])
-#H = np.zeros(k)
-#Prod = I * np.log2(I)
-#Prod[I == 0.0] = 0
-#for i in range(k) :
-#    H[i] = np.sum(Prod)
-#
-#plt.plot(range(k), H / range(k) + 1)
-#plt.plot(range(k), np.array(range(k)) * limit)
+#mise en place de k réalisations de X et Y
+
+k = 10000
+def simul(k):
+    #mise en place de k réalisations de X et Y
+    X = np.random.choice([0, 1, 2], k, p=Px)
+    Y = np.zeros(X.shape, dtype ='int32')
+    Y[X != 0] = 1
+    #I sera la loi de X|Y = y_i, H l'entropie de cette loi
+    I = np.zeros((k, 3))
+    H = np.zeros(k)
+    
+    I[0] = Pxy[:, Y[0]] * Px / np.sum(Px * Pxy[:, Y[0]])
+    H[0] = Hx(I[0])
+    
+    for i in range(1,k) :
+        I[i] = Pxy[:, Y[i]] * Px / np.sum(Px * Pxy[:, Y[i]])
+        if Hx(I[i]) > Hx(Px):
+            print(Hx(I[i]))
+            print(i, I[i])
+        H[i] = (Hx(I[i]) + (i-1) * H[i-1])/i
+    return H
+
+#simu = simul(k)
+#plt.plot(range(k), simu)
+#plt.plot(range(k), np.ones(k) * limit)
 #plt.ymax = 1
 #
 #plt.show()
 
 #Q6c
+

@@ -11,7 +11,7 @@ from CustomObjects import Token, HuffTree
 
 import Q6
 
-#Question B
+i#Question B
 def occurencies(s):
     rep = {}
     for char in s :

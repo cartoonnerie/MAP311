@@ -10,7 +10,6 @@
 \newcommand{\I}{\mathcal{I}}
 \newcommand{\B}{\mathcal{B}}
 \newcommand{\D}{\mathcal{D}}
-\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -42,7 +41,7 @@
 }
 
 \title{Entropie et codage de source}
-\author{Alice Andrès, Quentin SOubeyran}
+\author{Alice Andrès, Quentin Soubeyran}
 
 \begin{onehalfspacing}
 \begin{document}
@@ -121,7 +120,7 @@ Avec égalité si et seulement si $p_{(X,Y)} = p_X \otimes p_Y$ soit $X$ et $Y$ 
 
 \begin{Q}{4a}
 \begin{align*}
-\H(X,Y) &= - \sum_{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
+\\H(X,Y) &= - \sum_{x,y \in E^2}  p_{X,Y}(x,y)\log_2{(p_{X,Y}(x,y))} \\
 	&= -\sum_{x \in E} \sum_{y \in E} p_X(x) p_{Y|X = x}(y) \log_2{p_X(x)}
 		+ \log_2{p_{Y|X= x}(y)} \\
 	&= \H(X) + \sum_{x \in E} p_X(x)
@@ -136,7 +135,7 @@ Et l'on a montré l'égalité.
 \begin{Q}{4b}
 
 \begin{align*}
-\I(X,Y) &= \sum_{(X,Y) \in E²} p_{X,Y}(x,y)
+ \I(X,Y) &= \sum_{(X,Y) \in E²} p_{X,Y}(x,y)
 				\log_2{\frac{p_{X,Y}{(x,y)}}{p_X(x)p_Y(y)}} \\
 	&= \sum_{(X,Y) \in E²}
 		\operatorname{p_X}(x) p_{Y|X=x}(y) \log_2{(p_{Y|X=x}(y))} 
@@ -178,13 +177,24 @@ Voir le code dans le fichier Q5.py.
 \end{Q}
 
 \begin{Q}{6a}
+Voir le code dans le fichier Q6.py.
 
+On obtient \[H(X) \approx 0.6685644431995964 \text{ et } \H(X|Y) = 1,25\]
 \end{Q}
 
 \begin{Q}{6b}
+Voir le code dans le fichier Q6.py.
+
+On observe, encore un fois, un convergence de $\frac{1}{k} \sum_{i = 1}^{k} \H(X|Y = y_i)$ vers $\H(X|Y) = 1,25$.
+
+\begin{center}
+\includegraphics[width=\textwidth]{Q6b.png}
+\end{center}
+
 \end{Q}
 
 \begin{Q}{6c}
+On obtient \[\H(X|Y = 0) = 0 \text{ et } \H(X|Y = 1) = 1 > \H(X) \approx 0.6685644432 \]
 \end{Q}
 
 \section{Application au codage de source}
@@ -367,6 +377,7 @@ Voir le fichier Python Q9.py
 \end{Q}
 
 \begin{Q}{9c}
+%A toi !
 \end{Q}
 
 \begin{Q}{9d}
@@ -390,7 +401,7 @@ minimal de bits pour coder 11 caractères, qui est de $log_2(11) \approx 3,45$.
 
 On a donc besoin de 4 bits au minimum pour coder ces 11 caractères ; cela est aussi nécessaire avec le codage de Huffman lorsque la 
 répartition est uniforme. On gagne cependant un bit lorsques les fréquences sont disparates : 
-on passe à 3 bits. ($\floor{\mathbb{E}(l(X))}$).
+on passe à 3 bits. ($\lceil \mathbb{E}(l(X)) \rceil $).
 
 \end{Q}
 
