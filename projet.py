@@ -26,7 +26,7 @@ for k in l:
     ns[i] = n
     #simulation de n variables aléatoires indépendante de loi B(N, p)
     sim = np.random.binomial(N, p, n)
-    print sim, n
+    print(sim, n)
     
     #calcul des fréquences pour approximer les propabilités de chaque réalisation
     freqs[i] = np.bincount(sim, minlength=N) / float(n)

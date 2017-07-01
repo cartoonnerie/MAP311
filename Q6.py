@@ -1,26 +1,26 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Jun  2 21:38:11 2017
 
-@author: alice
-"""
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 #Q6a
 
-#loi de X [a , b, c]
+#loi de X à valeur dans {a , b, c}
 Px = np.array([14/16, 1/16, 1/16])
 
-#entropie d'une variable aléatoire
+#entropie d'une variable aléatoire, où P est l'array des probabilités
 def Hx(P):
    return -sum([p*np.log2(p) for p in P if p != 0])
+
+#Entropie de X
+H = Hx(Px)
 
 
 #loi de Y|X sous forme de tableau Pxy[0] = P_Y|(X = x0)
 Pxy = np.array([[1., 0.], [0., 1.],[0., 1.]])
 
+#entropie de X|Y
 def Hxy(Px, P): #len(Px) = len(P)
     n = len(P)
     return sum([Px[i] * Hx(P[i]) for i in range(n)])
