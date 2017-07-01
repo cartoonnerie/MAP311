@@ -59,12 +59,11 @@ def simul(k):
         H[i] = (Hx(I[i]) + (i-1) * H[i-1])/i
     return H
 
-#simu = simul(k)
-#plt.plot(range(k), simu)
-#plt.plot(range(k), np.ones(k) * limit)
-#plt.ymax = 1
-#
-#plt.show()
-
-#Q6c
-
+def Q6b(k):
+    simu = simul(k)
+    plt.plot(range(k), simu)
+    plt.plot(range(k), np.ones(k) * limit)
+    plt.ymax = 1
+    
+    plt.show()
+    return None
