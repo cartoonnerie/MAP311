@@ -53,17 +53,21 @@ def simul(k):
     
     for i in range(1,k) :
         I[i] = Pxy[:, Y[i]] * Px / np.sum(Px * Pxy[:, Y[i]])
-        if Hx(I[i]) > Hx(Px):
-            print(Hx(I[i]))
-            print(i, I[i])
+#        #chercher des valeurs plus grandes que H(X)
+#        if Hx(I[i]) > Hx(Px):
+#            print(Hx(I[i]))
+#            print(i, I[i])
         H[i] = (Hx(I[i]) + (i-1) * H[i-1])/i
     return H
 
 def Q6b(k):
     simu = simul(k)
-    plt.plot(range(k), simu)
-    plt.plot(range(k), np.ones(k) * limit)
+    plt.plot(range(k), simu, label = "Valeurs simulées")
+    plt.plot(range(k), np.ones(k) * limit, label = "Valeur théorique")
     plt.ymax = 1
+    plt.title("Convergence vers l'entropie conditionnelle")
+    plt.xlabel('Nombre de simulation')
+    plt.legend(loc='best')
     
     plt.show()
     return None
