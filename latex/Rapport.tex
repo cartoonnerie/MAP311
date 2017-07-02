@@ -39,13 +39,14 @@
 }{
 \vspace{2ex}
 }
-
-\title{Entropie et codage de source}
+\title{Projet MAP 311 \\ Entropie et codage de source}
 \author{Alice Andrès, Quentin Soubeyran}
+\date{3 juillet 2017}
 
 \begin{onehalfspacing}
 \begin{document}
 \maketitle
+\newpage
 
 \section{Entropie d'une distribution de probabilité}
 
@@ -55,15 +56,6 @@ Comme $X \sim \B(N,p)$, on a :
 \[
 p(x) = {N \choose k} p^k (1-p)^{(N-k)}
 \]
-%\begin{align*}
-%\H(x) &= - \sum_{k=0}^N p(x) \log_2(p(x)) \\
-%	&= - \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} \log_2 \left({N \choose k} p^k (1-p)^{(N-k)}\right) \\
-%	&= \log_2(N!) \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} \left( \log_2\left(k!(N-k)!\right) \right) \\
-%	&\qquad- \log_2(p) \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} k \\
-%	&\qquad- \log_2(1-p) \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} (N-k) \\
-%	&= \log_2(N!) \sum_{k=0}^N {N \choose k} p^k (1-p)^{(N-k)} \left( \log_2\left(k!(N-k)!\right) \right) \\
-%	&\qquad-pN\log_2(p) - (1-p)N\log_2(1-p) 
-%\end{align*}
 
 On peut ainsi calculer l'entropie $\H$ de $X$ numériquement. Simulons $n$ variables aléatoires et calculons la différence entre $2^{-n\H}$ et $p_X(x_1)...p_X(x_n)$.
 
@@ -188,7 +180,7 @@ Voir le code dans le fichier Q6.py.
 On observe, encore un fois, un convergence de $\frac{1}{k} \sum_{i = 1}^{k} \H(X|Y = y_i)$ vers $\H(X|Y) = 1,25$.
 
 \begin{center}
-\includegraphics[width=\textwidth]{Q6b.png}
+%\includegraphics[width=\textwidth]{Q6b.png}
 \end{center}
 
 \end{Q}
@@ -377,7 +369,22 @@ Voir le fichier Python Q9.py
 \end{Q}
 
 \begin{Q}{9c}
-%A toi !
+%OK :)
+Voir code dans le fichier Q9.py.
+L'idée est d'utiliser une fonction récursive pour construire l'arbre selon l'algorithme présenté par le sujet. On utilise pour cela :
+\begin{itemize}
+
+\item[$\bullet$]le module \texttt{heapq} qui permet de faire des tas, facilitant ainsi la recherche les deux minimums (point (i) de l'algorithme).
+
+\item[$\bullet$] Une classe pour représenter l'arbre de Huffman pendant sa consruction par l'algorithme, \texttt{HuffTree}, implémentée dans \texttt{CustomObject.py}. Celle-ci sert à représenter la concaténation de deux caractère ou arbres des étapes précédentes. Ainsi, une fois l'arbre complet construit, celui-ci est exactement de la forme du dernier arbre de la question précédente.
+
+Cette classe implémente également \texttt{toDict()}, une fonction donnant une représentation sous forme de dictionnaire, plus adaptée.
+
+\item[$\bullet$] Une classe permettant de donner une valeur de comparaison à n'importe quel objet (classe \texttt{Token} de \texttt{CustomObject.py}). Cela permet de mettre les instances de \texttt{HuffTree} directement dans le tas géré par \texttt{heapq}.
+\end{itemize}
+
+A la différence de l'algorithme présenté par le sujet, l'étape (iii) est effectuée au fur et à mesure, en même temps que l'étape (ii), par la construction d'une instance de \texttt{HuffTree} à chaque appel récursif de la fonction auxiliaire interne.
+
 \end{Q}
 
 \begin{Q}{9d}
@@ -385,7 +392,7 @@ Le code est disponible dans le fichier Q9.py.
 On constate que le langage de Huffman correspond bien à un langage décrit par le Théorème de Schannon, puisqu'il vérifie
 la double inégalité (iii)
 
-En effet, on obtient pourun proba uniforme : 
+En effet, on obtient pour une probabilité uniforme : 
 \[ 3.4585110748 \leq 3.54475447545 < 4.4585110748 \]
 Et pour la répartition des lettres de la langue française : 
 \[ 2.77115542449 \leq 2.83174404962 < 3.77115542449 \]
@@ -397,7 +404,7 @@ Les moyennes obtenues sont de l'ordre de 3, soit très intéressantes par rappor
 répartition des caractères n'est pas uniforme.
 
 Mais l'alphabet considéré est restreint par rapport à ce que les 8 bits peuvent coder. Il est donc plus pertinent de comparer au nombre
-minimal de bits pour coder 11 caractères, qui est de $log_2(11) \approx 3,45$.
+minimal de bits pour coder 11 caractères, qui est de $\log_2(11) \approx 3,45$.
 
 On a donc besoin de 4 bits au minimum pour coder ces 11 caractères ; cela est aussi nécessaire avec le codage de Huffman lorsque la 
 répartition est uniforme. On gagne cependant un bit lorsques les fréquences sont disparates : 

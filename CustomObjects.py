@@ -26,7 +26,7 @@ class Token:
     def __gt__(self, other):
         return self.__comp > other
     
-    ##redirecting all attribute access, functioncal, representation and so on
+    ##redirecting all attribute access, function calls and so on
     ##to the original object
     def __str__(self):
         return self.__value.__str__()
