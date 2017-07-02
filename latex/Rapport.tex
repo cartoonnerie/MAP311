@@ -177,7 +177,7 @@ On obtient \[H(X) \approx 0.6685644431995964 \text{ et } \H(X|Y) = 1,25\]
 \begin{Q}{6b}
 Voir le code dans le fichier Q6.py.
 
-On observe, encore un fois, un convergence de $\frac{1}{k} \sum_{i = 1}^{k} \H(X|Y = y_i)$ vers $\H(X|Y) = 1,25$.
+On observe, encore une fois, une convergence de $\frac{1}{k} \sum_{i = 1}^{k} \H(X|Y = y_i)$ vers $\H(X|Y) = 1,25$.
 
 \begin{center}
 \includegraphics[width=\textwidth]{Q6b.png}
@@ -204,7 +204,7 @@ Alors
 \sum_{x \in E}p_X(x)log_2(p_X(x)) &\geq  -\sum_{x \in E}p_X(x)l(x)log_2(d) + \sum_{x \in E}p_X(x)log_2(\frac{1}{c}) \\
  &\iff\\
 -\H(X) &\geq -log_2(d) \mathbb{E}(X) + log_2(\frac{1}{c})
-\\ &\geq -log_2(d) \mathbb{E}(X) \texttt{\quad(car} \leq 1 \textsc{)}
+\\ &\geq -log_2(d) \mathbb{E}(X) \text{\quad(car} \leq 1 \textsc{)}
 \end{align*}
 
 D'où $\frac{\H(x)}{log_2(d)} \leq \mathbb{E}[l(X)]$
@@ -333,7 +333,7 @@ bad & ecf \\
 \vspace{1ex}
 \end{center}
 
-On n'a plus que deux éléments, et construisons donc l'arbre en remontant les étapes précédentes.
+On n'a plus que deux éléments, construisons donc l'arbre en remontant les étapes précédentes.
 
 \Tree [. bad ecf ]
 
@@ -370,10 +370,11 @@ Voir le fichier Python Q9.py
 
 \begin{Q}{9c}
 Voir code dans le fichier Q9.py.
+
 L'idée est d'utiliser une fonction récursive pour construire l'arbre selon l'algorithme présenté par le sujet. On utilise pour cela :
 \begin{itemize}
 
-\item[$\bullet$]le module \texttt{heapq} qui permet de faire des tas, facilitant ainsi la recherche les deux minimums (point (i) de l'algorithme).
+\item[$\bullet$]le module \texttt{heapq} qui permet de gérer des tas, facilitant ainsi la recherche les deux minimums (point (i) de l'algorithme).
 
 \item[$\bullet$] Une classe pour représenter l'arbre de Huffman pendant sa consruction par l'algorithme, \texttt{HuffTree}, implémentée dans \texttt{CustomObject.py}. Celle-ci sert à représenter la concaténation de deux caractère ou arbres des étapes précédentes. Ainsi, une fois l'arbre complet construit, celui-ci est exactement de la forme du dernier arbre de la question précédente.
 
